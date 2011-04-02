@@ -1,0 +1,33 @@
+GI Header	Length	Score	Expected Value	Identity Percentage	Positives Percentage	Gaps Percentage
+gi|1170141|sp|P46238|GUXC_FUSOX Putative exoglucanase type C precursor (Exocellobiohydrolase I)	514	798	0.0	84	91	0
+gi|1346226|sp|P15828|GUX1_HUMGT Exoglucanase I precursor (Exocellobiohydrolase I)	525	615	e-176	63	75	3
+gi|729649|sp|P38676|GUX1_NEUCR Exoglucanase 1 precursor (Exocellobiohydrolase 1)	516	541	e-153	58	67	4
+gi|121854|sp|P19355|GUX1_TRIVI Exoglucanase I precursor (Exocellobiohydrolase)	513	526	e-149	57	68	2
+gi|3913806|sp|Q92400|GUX2_AGABI Exoglucanase precursor (Exocellobiohydrolase)	506	526	e-149	55	68	3
+gi|121853|sp|P00725|GUX1_TRIRE Exoglucanase I precursor (Exocellobiohydrolase I) (CBHI)	513	523	e-148	56	68	3
+gi|3913802|sp|Q00328|GUX1_COCCA EXOGLUCANASE I PRECURSOR (EXOCELLOBIOHYDROLASE I)	456	502	e-142	61	71	2
+gi|3913798|sp|O59843|GUX1_ASPAC Exoglucanase I precursor (Exocellobiohydrolase I)	540	491	e-138	54	67	5
+gi|121852|sp|P13860|GUX1_PHACH Exoglucanase I precursor (Exocellobiohydrolase I)	516	488	e-137	53	65	6
+gi|729650|sp|Q06886|GUX1_PENJA Exoglucanase I precursor (Exocellobiohydrolase I)	537	485	e-137	55	65	5
+gi|3913803|sp|Q00548|GUX1_CRYPA EXOGLUCANASE I PRECURSOR (EXOCELLOBIOHYDROLASE I)	452	482	e-136	58	70	1
+gi|1170138|sp|P46237|GUNC_FUSOX Endoglucanase type C precursor (Endo-1,4-beta-glucanase)	429	241	2e-63	36	48	10
+gi|6016178|sp|P56680|GUN1_HUMIN Endoglucanase I (Endo-1,4-beta-glucanase) (Cellulase)	402	237	5e-62	36	50	11
+gi|2833230|sp|Q12622|GUN1_HUMGT Endoglucanase EG-1 precursor (Endo-1,4-beta-glucanase) (Cellulase)	435	236	6e-62	35	49	10
+gi|121788|sp|P07981|GUN1_TRIRE Endoglucanase EG-1 precursor (Endo-1,4-beta-glucanase) (Cellulase)	459	225	2e-58	35	49	15
+gi|2833231|sp|Q12714|GUN1_TRILO Endoglucanase EG-1 precursor (Endo-1,4-beta-glucanase) (Cellulase)	463	220	7e-57	35	49	16
+gi|1346227|sp|P49075|GUX3_AGABI Exoglucanase 3 precursor (Exocellobiohydrolase 3)	438	438	5e-07	70	80	80
+gi|121855|sp|P07987|GUX2_TRIRE Exoglucanase II precursor (Exocellobiohydrolase II) (CBHII)	471	471	2e-06	70	77	77
+gi|25090320|sp|Q9HE18|FAEB_PENFN Feruloyl esterase B precursor (Ferulic acid esterase B) (FAEB)	353	353	3e-06	62	71	71
+gi|1170139|sp|P46239|GUNF_FUSOX Putative endoglucanase type F precursor (Endo-1,4-beta-glucanase)	385	385	5e-06	61	77	77
+gi|1170137|sp|P46236|GUNB_FUSOX Putative endoglucanase type B precursor (Endo-1,4-beta-glucanase)	462	462	7e-06	65	71	71
+gi|13959390|sp|Q12624|GUN3_HUMIN Endoglucanase 3 precursor (Endo-1,4-beta-glucanase 3) (Cellulase 3)	388	388	8e-06	62	78	78
+gi|1709845|sp|P50272|PSBP_PORPU Putative polysaccharide binding protein precursor	210	210	0.24	41	53	4
+gi|21263647|sp|O14405|GUN4_TRIRE Endoglucanase IV precursor (Endo-1,4-beta-glucanase IV) (Cellulase	344	344	4e-05	47	62	2
+gi|121794|sp|P07982|GUN2_TRIRE Endoglucanase EG-II precursor (Endo-1,4-beta-glucanase) (Cellulase)	418	418	7e-04	54	67	67
+gi|1170136|sp|P43317|GUN5_TRIRE Endoglucanase V precursor (Endo-1,4-beta-glucanase V) (Cellulase V)	242	242	0.010	54	77	77
+gi|1708333|sp|P51514|HTF4_RAT Transcription factor 12 (Transcription factor HTF-4) (E-box-binding	707	707	0.20	34	51	51
+gi|20139943|sp|Q9M6D9|STM_BRAOL Homeobox protein Shootmeristemless	383	383	0.43	44	52	52
+gi|2494341|sp|Q00023|CEL1_AGABI Cellulose-growth-specific protein precursor	320	320	0.82	56	75	75
+gi|1170140|sp|P45699|GUNK_FUSOX Putative endoglucanase type K precursor (Endo-1,4-beta-glucanase)	376	376	1.7	37	53	8
+gi|17865457|sp|O82150|FTSH_TOBAC Cell division protein ftsH homolog, chloroplast precursor (DS9)	714	714	2.9	40	50	9
+gi|26007028|sp|P23504|SPAP_STRMU Cell surface antigen I/II precursor	1562	1562	6.1	41	64	8

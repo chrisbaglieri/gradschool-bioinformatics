@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML Basic 1.0//EN"
+	"http://www.w3.org/TR/xhtml-basic/xhtml-basic10.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US"><head><title>SGD Gene Ontology Term Finder</title>
+<script language="JavaScript" type="text/javascript">
+<!-- Hide script
+//<![CDATA[
+var myWin
+var myWinExist = false
+var windowOptions = "resizable,scrollbars,width=500,height=600"
+var windowOptions2 = "resizable,width=500,height=450"
+
+function open_win (str) {
+    if (!myWinExist || myWin.closed) {
+	myWinExist = true
+	myWin = window.open("", "infowin", windowOptions)
+    }else {
+	myWin.document.close()    
+    }
+}
+
+function open_win2 (str) {
+    if (!myWinExist || myWin.closed) {
+	myWinExist = true
+	myWin = window.open("", "infowin2", windowOptions2)
+    }else {
+	myWin.document.close()    
+    }
+}
+
+function writeInfo (txt) {
+    document.infoform.info.value=(txt);
+}
+
+function jump (element) {
+    var listItem = element.options[element.selectedIndex].text;
+    var pattern = /#/;
+    var url = document.location.href.split(pattern);
+    document.location.href = url[0] + "#" + listItem;
+}
+
+function switchAddress(list ){	
+    location.href = list.options[list.selectedIndex].value;
+}
+
+function popup(url) {
+
+   options = "width=300,height=300,status=0,resizable=1,scrollbars=1";
+   window.open(url, "infowin2", options);
+
+}
+
+
+
+
+//]]> End script hiding -->
+</script>
+</head><body><body bgcolor='#FFFFFF'>
+<table cellpadding="2" width="100%" cellspacing="0" border="0"><tr><td colspan="4"><hr width="100%" /></td></tr><tr><td valign="middle" align="right"><a href="http://www.yeastgenome.org/"><img alt="SGD" border="0" src="http://www.yeastgenome.org/images/SGD-to.gif" /></a></td><th valign="middle" nowrap="1">Quick Search:</th><td valign="middle" align="left"><form method="post" action="http://db.yeastgenome.org/cgi-bin/SGD/search/quickSearch" enctype="application/x-www-form-urlencoded">
+<input type="text" name="query"  size="13" /><input type="submit" name="Submit" value="Submit" />
+</form></td><th valign="middle" align="left"><a href="http://www.yeastgenome.org/sitemap.html">Site Map</a> | <a href="http://www.yeastgenome.org/SearchContents.shtml">Full Search</a> | <a href="http://www.yeastgenome.org/HelpContents.shtml">Help</a> | <a href="http://db.yeastgenome.org/cgi-bin/SGD/suggestion">Contact SGD</a> | <a href="http://www.yeastgenome.org/">Home</a></th></tr><tr><td align="left" colspan="4"><table cellpadding="1" width="100%" cellspacing="0" border="0"><tr align="center" bgcolor="navajowhite"><td><font size="-1"><a href="http://www.yeastgenome.org/ComContents.shtml">Community Info</a></font></td><td><font size="-1"><a href="http://www.yeastgenome.org/SubmitContents.shtml">Submit Data</a></font></td><td><font size="-1"><a href="http://seq.yeastgenome.org/cgi-bin/SGD/nph-blast2sgd">BLAST</a></font></td><td><font size="-1"><a href="http://seq.yeastgenome.org/cgi-bin/SGD/web-primer">Primers</a></font></td><td><font size="-1"><a href="http://seq.yeastgenome.org/cgi-bin/SGD/PATMATCH/nph-patmatch">PatMatch</a></font></td><td><font size="-1"><a href="http://db.yeastgenome.org/cgi-bin/SGD/seqTools">Gene/Seq Resources</a></font></td><td><font size="-1"><a href="http://db.yeastgenome.org/cgi-bin/SGD/search/featureSearch">Chromosomal Features Search</a></font></td><td><font size="-1"><a href="http://www.yeastgenome.org/VL-yeast.html">Virtual Library</a></font></td></tr></table></td></tr><tr><td colspan="4"><hr width="100%" /></td></tr></table><table cellpadding="0" width="100%" cellspacing="0" border="0"><tr><td width="10%"><br /></td><td valign="middle" align="center" width="80%"><h1>SGD Gene Ontology Term Finder</h1></td><td valign="middle" align="right" width="10%"><table><tr><td><a href="http://www.yeastgenome.org/help/goTermFinder.html"><img valign="MIDDLE" align="RIGHT" alt="Help" border="0" src="http://db.yeastgenome.org/Saccharomyces/images/help-button.gif" /></a></td></tr><tr><td><br /></td></tr></table></td></tr></table>This page displays, in both graphic and <a href="#table">table</a> form, the significant shared GO terms (or parents of GO terms) used to describe your set of genes. A p-value, indicated by color in the graphic, is also provided as a score of significance.<p />Genes in the graphic are associated with the GO term to which they are directly annotated to conserve space. Genes in the <a href="#table">table</a> below are listed for GO terms to which they are directly annotated as well as parents of those GO terms.<p />You can also <a href="http://db.yeastgenome.org/Saccharomyces/tmp/goTermFinderResult.19197.xls">download</a> these results in a tab-delimited (excel) file.<p /><MAP NAME='goPathGif'><AREA SHAPE='RECT' COORDS='1681,32,1799,48' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=8150' title="">
+<AREA SHAPE='RECT' COORDS='1564,85,1650,110' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=7582' title="">
+<AREA SHAPE='RECT' COORDS='509,239,590,255' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=8152' title="">
+<AREA SHAPE='RECT' COORDS='1026,302,1108,374' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=6139' title="">
+<AREA SHAPE='RECT' COORDS='992,440,1078,456' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=6350' title="">
+<AREA SHAPE='RECT' COORDS='933,560,1044,586' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=6351' title="">
+<AREA SHAPE='RECT' COORDS='852,661,936,705' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=6366' title="">
+<AREA SHAPE="RECT" COORDS="676,767,700,775" HREF="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=SRB7">
+<AREA SHAPE="RECT" COORDS="706,767,730,775" HREF="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=MED7">
+<AREA SHAPE="RECT" COORDS="736,767,760,775" HREF="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=CSE2">
+<AREA SHAPE="RECT" COORDS="766,767,790,775" HREF="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=SRB4">
+<AREA SHAPE="RECT" COORDS="796,767,820,775" HREF="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=MED8">
+<AREA SHAPE="RECT" COORDS="733,777,757,785" HREF="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=SOH1">
+<AREA SHAPE='RECT' COORDS='1064,556,1150,590' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=45449' title="">
+<AREA SHAPE='RECT' COORDS='1291,661,1377,705' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=16481' title="">
+<AREA SHAPE='RECT' COORDS='1290,748,1402,801' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=45892' title="">
+<AREA SHAPE='RECT' COORDS='1360,1011,1430,1037' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=6342' title="">
+<AREA SHAPE='RECT' COORDS='1304,1084,1392,1128' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=6343' title="">
+<AREA SHAPE='RECT' COORDS='1041,661,1152,705' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=6355' title="">
+<AREA SHAPE='RECT' COORDS='1843,85,1901,110' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=9987' title="">
+<AREA SHAPE='RECT' COORDS='1831,153,1916,187' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=50875' title="">
+<AREA SHAPE='RECT' COORDS='1876,224,1965,269' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=8151' title="">
+<AREA SHAPE='RECT' COORDS='1652,316,1733,360' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=16043' title="">
+<AREA SHAPE='RECT' COORDS='1644,426,1725,470' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=6997' title="">
+<AREA SHAPE='RECT' COORDS='1631,542,1716,604' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=7001' title="">
+<AREA SHAPE='RECT' COORDS='1388,652,1477,715' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=6325' title="">
+<AREA SHAPE='RECT' COORDS='1412,762,1501,787' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=16568' title="">
+<AREA SHAPE='RECT' COORDS='1401,853,1489,888' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=16582' title="">
+<AREA SHAPE='RECT' COORDS='1393,944,1472,970' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=6338' title="">
+<AREA SHAPE='RECT' COORDS='1398,436,1480,461' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=6259' title="">
+<AREA SHAPE='RECT' COORDS='1382,560,1455,586' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=6323' title="">
+<AREA SHAPE='RECT' COORDS='1740,90,1829,106' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=7275' title="">
+<AREA SHAPE='RECT' COORDS='1746,148,1820,192' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=40029' title="">
+<AREA SHAPE='RECT' COORDS='1777,220,1850,273' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=45814' title="">
+<AREA SHAPE='RECT' COORDS='1255,944,1320,970' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=16458' title="">
+<AREA SHAPE='RECT' COORDS='1120,403,1201,494' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=19219' title="">
+<AREA SHAPE='RECT' COORDS='1289,523,1370,623' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=45934' title="">
+<AREA SHAPE='RECT' COORDS='1213,320,1294,355' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=19222' title="">
+<AREA SHAPE='RECT' COORDS='1622,148,1707,192' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=50791' title="">
+<AREA SHAPE='RECT' COORDS='1661,76,1729,120' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=50789' title="">
+<AREA SHAPE='RECT' COORDS='1305,426,1387,470' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=9892' title="">
+<AREA SHAPE="RECT" COORDS="1337,1168,1361,1176" HREF="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=SIR1">
+<AREA SHAPE='RECT' COORDS='1403,1070,1483,1142' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=30466' title="">
+<AREA SHAPE="RECT" COORDS="1433,1168,1457,1176" HREF="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=SIR1">
+<AREA SHAPE='RECT' COORDS='1163,661,1249,705' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=45941' title="">
+<AREA SHAPE='RECT' COORDS='1138,748,1250,801' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=45893' title="">
+<AREA SHAPE='RECT' COORDS='1098,835,1181,906' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=45944' title="">
+<AREA SHAPE='RECT' COORDS='1044,743,1128,806' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=6357' title="">
+<AREA SHAPE='RECT' COORDS='1192,523,1273,623' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=45935' title="">
+<AREA SHAPE='RECT' COORDS='1213,426,1294,470' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=9893' title="">
+<AREA SHAPE="RECT" COORDS="1130,947,1154,955" HREF="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=YRR1">
+<AREA SHAPE='RECT' COORDS='856,748,939,801' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=6356' title="">
+<AREA SHAPE='RECT' COORDS='758,666,841,700' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=6360' title="">
+<AREA SHAPE="RECT" COORDS="887,861,911,869" HREF="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=CKB1">
+<AREA SHAPE='RECT' COORDS='950,743,1033,806' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=6359' title="">
+<AREA SHAPE='RECT' COORDS='947,661,1030,705' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=6383' title="">
+<AREA SHAPE="RECT" COORDS="982,861,1006,869" HREF="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=CKB1">
+<AREA SHAPE='RECT' COORDS='2052,325,2138,350' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=8283' title="">
+<AREA SHAPE='RECT' COORDS='2180,440,2247,456' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=7049' title="">
+<AREA SHAPE='RECT' COORDS='2179,556,2248,590' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=74' title="">
+<AREA SHAPE='RECT' COORDS='2155,671,2232,696' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=75' title="">
+<AREA SHAPE='RECT' COORDS='2001,762,2095,787' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=77' title="">
+<AREA SHAPE='RECT' COORDS='1569,229,1634,264' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=50896' title="">
+<AREA SHAPE='RECT' COORDS='1562,316,1641,360' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=9719' title="">
+<AREA SHAPE='RECT' COORDS='1562,426,1625,470' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=6974' title="">
+<AREA SHAPE='RECT' COORDS='1727,551,1820,595' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=42770' title="">
+<AREA SHAPE='RECT' COORDS='1491,325,1551,350' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=6950' title="">
+<AREA SHAPE="RECT" COORDS="2037,861,2061,869" HREF="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=PIN4">
+<AREA SHAPE='RECT' COORDS='1466,565,1551,581' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=6281' title="">
+<AREA SHAPE='RECT' COORDS='1599,671,1693,696' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=6301' title="">
+<AREA SHAPE="RECT" COORDS="1632,765,1662,773" HREF="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=UBC13">
+<AREA SHAPE="RECT" COORDS="1581,563,1605,571" HREF="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=CKB1">
+<AREA SHAPE="RECT" COORDS="1512,673,1536,681" HREF="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=SOH1">
+<AREA SHAPE="RECT" COORDS="1542,673,1566,681" HREF="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=HAM1">
+<AREA SHAPE='RECT' COORDS='2099,560,2166,586' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=278' title="">
+<AREA SHAPE='RECT' COORDS='2077,661,2143,705' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=86' title="">
+<AREA SHAPE="RECT" COORDS="2126,765,2150,773" HREF="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=PIN4">
+<AREA SHAPE="RECT" COORDS="2156,765,2180,773" HREF="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=CKB1">
+<AREA SHAPE="RECT" COORDS="1510,438,1534,446" HREF="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=PSR2">
+<AREA SHAPE='RECT' COORDS='2279,565,2344,581' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=279' title="">
+<AREA SHAPE='RECT' COORDS='2273,666,2350,700' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=87' title="">
+<AREA SHAPE='RECT' COORDS='2305,767,2365,783' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=7067' title="">
+<AREA SHAPE='RECT' COORDS='2240,858,2311,883' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=7088' title="">
+<AREA SHAPE='RECT' COORDS='2221,944,2298,970' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=7093' title="">
+<AREA SHAPE='RECT' COORDS='2221,1007,2298,1041' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=7094' title="">
+<AREA SHAPE='RECT' COORDS='2362,671,2422,696' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=280' title="">
+<AREA SHAPE="RECT" COORDS="2249,1096,2273,1104" HREF="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=ULP2">
+<AREA SHAPE='RECT' COORDS='1890,330,1957,346' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=6810' title="">
+<AREA SHAPE='RECT' COORDS='1850,762,1916,787' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=15893' title="">
+<AREA SHAPE='RECT' COORDS='1849,858,1917,883' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=6855' title="">
+<AREA SHAPE='RECT' COORDS='1750,316,1813,360' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=9605' title="">
+<AREA SHAPE='RECT' COORDS='1753,431,1816,465' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=9628' title="">
+<AREA SHAPE='RECT' COORDS='1861,551,1932,595' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=42221' title="">
+<AREA SHAPE='RECT' COORDS='1865,671,1931,696' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=42493' title="">
+<AREA SHAPE="RECT" COORDS="1872,947,1896,955" HREF="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=YRR1">
+<AREA SHAPE='RECT' COORDS='2323,858,2392,883' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=90' title="">
+<AREA SHAPE='RECT' COORDS='2333,935,2413,979' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=70' title="">
+<AREA SHAPE='RECT' COORDS='2378,546,2463,600' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=67' title="">
+<AREA SHAPE='RECT' COORDS='2400,762,2486,787' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=7059' title="">
+<AREA SHAPE='RECT' COORDS='2403,853,2483,888' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=819' title="">
+<AREA SHAPE="RECT" COORDS="2363,1014,2387,1022" HREF="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=CSE2">
+<AREA SHAPE='RECT' COORDS='1994,661,2060,705' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=82' title="">
+<AREA SHAPE="RECT" COORDS="1948,765,1972,773" HREF="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=CKB1">
+<AREA SHAPE='RECT' COORDS='123,330,206,346' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=9058' title="">
+<AREA SHAPE='RECT' COORDS='123,421,206,475' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=46138' title="">
+<AREA SHAPE='RECT' COORDS='23,560,106,586' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=9108' title="">
+<AREA SHAPE='RECT' COORDS='240,762,323,787' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=6747' title="">
+<AREA SHAPE='RECT' COORDS='217,311,299,364' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=6731' title="">
+<AREA SHAPE='RECT' COORDS='217,436,299,461' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=6732' title="">
+<AREA SHAPE='RECT' COORDS='286,671,368,696' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=46443' title="">
+<AREA SHAPE='RECT' COORDS='358,325,440,350' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=6766' title="">
+<AREA SHAPE='RECT' COORDS='355,431,441,465' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=6767' title="">
+<AREA SHAPE='RECT' COORDS='357,551,439,595' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=42726' title="">
+<AREA SHAPE='RECT' COORDS='210,556,306,590' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=6733' title="">
+<AREA SHAPE='RECT' COORDS='193,671,275,696' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=6746' title="">
+<AREA SHAPE='RECT' COORDS='379,661,462,705' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=42727' title="">
+<AREA SHAPE="RECT" COORDS="271,861,295,869" HREF="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=FAD1">
+<AREA SHAPE='RECT' COORDS='51,762,136,787' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=15940' title="">
+<AREA SHAPE='RECT' COORDS='117,551,199,595' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=6752' title="">
+<AREA SHAPE='RECT' COORDS='97,671,182,696' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=15939' title="">
+<AREA SHAPE="RECT" COORDS="80,861,110,869" HREF="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=ECM31">
+<AREA SHAPE='RECT' COORDS='823,426,905,470' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=7028' title="">
+<AREA SHAPE='RECT' COORDS='810,551,879,595' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=42254' title="">
+<AREA SHAPE='RECT' COORDS='675,671,747,696' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=7046' title="">
+<AREA SHAPE='RECT' COORDS='557,762,630,787' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=6364' title="">
+<AREA SHAPE='RECT' COORDS='513,853,588,888' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=30490' title="">
+<AREA SHAPE='RECT' COORDS='605,436,687,461' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=16070' title="">
+<AREA SHAPE='RECT' COORDS='560,671,633,696' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=6396' title="">
+<AREA SHAPE='RECT' COORDS='667,560,749,586' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=16072' title="">
+<AREA SHAPE="RECT" COORDS="538,947,568,955" HREF="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=UTP13">
+<AREA SHAPE='RECT' COORDS='600,848,673,893' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=6365' title="">
+<AREA SHAPE="RECT" COORDS="623,947,653,955" HREF="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=RRP43">
+<AREA SHAPE='RECT' COORDS='561,330,636,346' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=9056' title="">
+<AREA SHAPE='RECT' COORDS='452,436,551,461' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=9057' title="">
+<AREA SHAPE='RECT' COORDS='457,560,532,586' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=6401' title="">
+<AREA SHAPE='RECT' COORDS='473,671,548,696' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=6402' title="">
+<AREA SHAPE='RECT' COORDS='544,560,625,586' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=16071' title="">
+<AREA SHAPE='RECT' COORDS='451,325,550,350' HREF='http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=43170' title="">
+<AREA SHAPE="RECT" COORDS="498,765,528,773" HREF="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=RRP43">
+</MAP><center><img usemap="#goPathGif" src="http://db.yeastgenome.org/Saccharomyces/tmp/goPath.19197.gif" /></center><p /><a name="table" /><center><h3>Search results in table form</h3></center><table cellpadding="2" width="300" align="center" border="1"><tr><td width align="left" bgcolor="#FFCC99"><b>Terms from the Process Ontology</b></td></tr></table><table align="center" border="2"><tr bgcolor="#CCCCFF"><th align="center">Gene Ontology term</th><th align="center">Cluster frequency</th><th align="center">Genome frequency of use</th><th align="center">P-value</th><th align="center">Genes annotated to the term</th></tr><tr><td><a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=6351">transcription, DNA-dependent</a> | <a target="infowin" href="http://godatabase.org/cgi-bin/go.cgi?view=detail&amp;depth=1&amp;query=6351">AmiGO</a></td><td>9 out of 43 genes, 20.9%</td><td>426 out of 7271 annotated genes, 5.8%</td><td>0.00074</td><td><a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=SRB7">SRB7</a>, <a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=MED7">MED7</a>, <a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=SIR1">SIR1</a>, <a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=YRR1">YRR1</a>, <a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=CSE2">CSE2</a>, <a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=SRB4">SRB4</a>, <a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=CKB1">CKB1</a>, <a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=MED8">MED8</a>, <a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=SOH1">SOH1</a></td></tr><tr><td><a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=6366">transcription from Pol II promoter</a> | <a target="infowin" href="http://godatabase.org/cgi-bin/go.cgi?view=detail&amp;depth=1&amp;query=6366">AmiGO</a></td><td>7 out of 43 genes, 16.2%</td><td>263 out of 7271 annotated genes, 3.6%</td><td>0.00082</td><td><a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=SRB7">SRB7</a>, <a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=MED7">MED7</a>, <a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=YRR1">YRR1</a>, <a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=CSE2">CSE2</a>, <a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=SRB4">SRB4</a>, <a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=MED8">MED8</a>, <a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=SOH1">SOH1</a></td></tr><tr><td><a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=6350">transcription</a> | <a target="infowin" href="http://godatabase.org/cgi-bin/go.cgi?view=detail&amp;depth=1&amp;query=6350">AmiGO</a></td><td>9 out of 43 genes, 20.9%</td><td>457 out of 7271 annotated genes, 6.2%</td><td>0.00121</td><td><a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=SRB7">SRB7</a>, <a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=MED7">MED7</a>, <a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=SIR1">SIR1</a>, <a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=YRR1">YRR1</a>, <a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=CSE2">CSE2</a>, <a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=SRB4">SRB4</a>, <a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=CKB1">CKB1</a>, <a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=MED8">MED8</a>, <a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=SOH1">SOH1</a></td></tr><tr><td><a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=6974">response to DNA damage stimulus</a> | <a target="infowin" href="http://godatabase.org/cgi-bin/go.cgi?view=detail&amp;depth=1&amp;query=6974">AmiGO</a></td><td>5 out of 43 genes, 11.6%</td><td>176 out of 7271 annotated genes, 2.4%</td><td>0.00372</td><td><a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=PIN4">PIN4</a>, <a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=UBC13">UBC13</a>, <a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=CKB1">CKB1</a>, <a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=SOH1">SOH1</a>, <a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=HAM1">HAM1</a></td></tr><tr><td><a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=9719">response to endogenous stimulus</a> | <a target="infowin" href="http://godatabase.org/cgi-bin/go.cgi?view=detail&amp;depth=1&amp;query=9719">AmiGO</a></td><td>5 out of 43 genes, 11.6%</td><td>181 out of 7271 annotated genes, 2.4%</td><td>0.00418</td><td><a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=PIN4">PIN4</a>, <a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=UBC13">UBC13</a>, <a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=CKB1">CKB1</a>, <a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=SOH1">SOH1</a>, <a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=HAM1">HAM1</a></td></tr><tr><td><a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=86">G2/M transition of mitotic cell cycle</a> | <a target="infowin" href="http://godatabase.org/cgi-bin/go.cgi?view=detail&amp;depth=1&amp;query=86">AmiGO</a></td><td>2 out of 43 genes, 4.6%</td><td>33 out of 7271 annotated genes, 0.4%</td><td>0.01644</td><td><a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=PIN4">PIN4</a>, <a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=CKB1">CKB1</a></td></tr><tr><td><a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=6950">response to stress</a> | <a target="infowin" href="http://godatabase.org/cgi-bin/go.cgi?view=detail&amp;depth=1&amp;query=6950">AmiGO</a></td><td>6 out of 43 genes, 13.9%</td><td>373 out of 7271 annotated genes, 5.1%</td><td>0.02174</td><td><a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=PSR2">PSR2</a>, <a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=PIN4">PIN4</a>, <a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=UBC13">UBC13</a>, <a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=CKB1">CKB1</a>, <a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=SOH1">SOH1</a>, <a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=HAM1">HAM1</a></td></tr><tr><td><a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=75">cell cycle checkpoint</a> | <a target="infowin" href="http://godatabase.org/cgi-bin/go.cgi?view=detail&amp;depth=1&amp;query=75">AmiGO</a></td><td>2 out of 43 genes, 4.6%</td><td>42 out of 7271 annotated genes, 0.5%</td><td>0.02576</td><td><a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=PIN4">PIN4</a>, <a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=ULP2">ULP2</a></td></tr><tr><td><a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=50896">response to stimulus</a> | <a target="infowin" href="http://godatabase.org/cgi-bin/go.cgi?view=detail&amp;depth=1&amp;query=50896">AmiGO</a></td><td>7 out of 43 genes, 16.2%</td><td>503 out of 7271 annotated genes, 6.9%</td><td>0.02705</td><td><a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=YRR1">YRR1</a>, <a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=PSR2">PSR2</a>, <a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=PIN4">PIN4</a>, <a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=UBC13">UBC13</a>, <a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=CKB1">CKB1</a>, <a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=SOH1">SOH1</a>, <a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=HAM1">HAM1</a></td></tr><tr><td><a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=278">mitotic cell cycle</a> | <a target="infowin" href="http://godatabase.org/cgi-bin/go.cgi?view=detail&amp;depth=1&amp;query=278">AmiGO</a></td><td>4 out of 43 genes, 9.3%</td><td>207 out of 7271 annotated genes, 2.8%</td><td>0.03360</td><td><a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=CSE2">CSE2</a>, <a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=PIN4">PIN4</a>, <a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=ULP2">ULP2</a>, <a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=CKB1">CKB1</a></td></tr><tr><td><a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=6281">DNA repair</a> | <a target="infowin" href="http://godatabase.org/cgi-bin/go.cgi?view=detail&amp;depth=1&amp;query=6281">AmiGO</a></td><td>3 out of 43 genes, 6.9%</td><td>129 out of 7271 annotated genes, 1.7%</td><td>0.04072</td><td><a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=UBC13">UBC13</a>, <a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=SOH1">SOH1</a>, <a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=HAM1">HAM1</a></td></tr><tr><td><a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=9108">coenzyme biosynthesis</a> | <a target="infowin" href="http://godatabase.org/cgi-bin/go.cgi?view=detail&amp;depth=1&amp;query=9108">AmiGO</a></td><td>2 out of 43 genes, 4.6%</td><td>55 out of 7271 annotated genes, 0.7%</td><td>0.04210</td><td><a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=FAD1">FAD1</a>, <a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=ECM31">ECM31</a></td></tr><tr><td><a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=46138">coenzyme and prosthetic group biosynthesis</a> | <a target="infowin" href="http://godatabase.org/cgi-bin/go.cgi?view=detail&amp;depth=1&amp;query=46138">AmiGO</a></td><td>2 out of 43 genes, 4.6%</td><td>69 out of 7271 annotated genes, 0.9%</td><td>0.06295</td><td><a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=FAD1">FAD1</a>, <a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=ECM31">ECM31</a></td></tr><tr><td><a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/GO/go.pl?goid=6139">nucleobase, nucleoside, nucleotide and nucleic acid metabolism</a> | <a target="infowin" href="http://godatabase.org/cgi-bin/go.cgi?view=detail&amp;depth=1&amp;query=6139">AmiGO</a></td><td>13 out of 43 genes, 30.2%</td><td>1486 out of 7271 annotated genes, 20.4%</td><td>0.08439</td><td><a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=SRB7">SRB7</a>, <a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=MED7">MED7</a>, <a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=SIR1">SIR1</a>, <a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=YRR1">YRR1</a>, <a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=UTP13">UTP13</a>, <a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=CSE2">CSE2</a>, <a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=SRB4">SRB4</a>, <a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=UBC13">UBC13</a>, <a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=CKB1">CKB1</a>, <a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=MED8">MED8</a>, <a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=SOH1">SOH1</a>, <a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=RRP43">RRP43</a>, <a target="infowin" href="http://db.yeastgenome.org/cgi-bin/SGD/locus.pl?locus=HAM1">HAM1</a></td></tr></table><p /><center><a href="http://db.yeastgenome.org/Saccharomyces/tmp/goTermFinderResult.19197.xls">Download Full Results</a></center><p /><hr size="2" width="75%">
+<table width="100%"><tr><td valign="top" align="left"><a href="http://www.yeastgenome.org/"><img border="0" src="http://www.yeastgenome.org/images/arrow.small.up.gif" />Return to SGD</a></td><td valign="bottom" align="right"><form method="post" action="http://db.yeastgenome.org/cgi-bin/SGD/suggestion" enctype="application/x-www-form-urlencoded" target="infowin" name="suggestion">
+<input type="hidden" name="script_name" value="/cgi-bin/SGD/GO/goTermFinder" /><input type="hidden" name="server_name" value="db.yeastgenome.org" /><input type="hidden" name="query_string" value="" /><a href="javascript:document.suggestion.submit()">Send a Message to the SGD Curators<img border="0" src="http://www.yeastgenome.org/images/mail.gif" /></a>
+</form></td></tr></table></body></html>

@@ -1,0 +1,158 @@
+#EVIDENCE CATEGORIES (Evidence of annotated information 14.11.2002)
+
+901 information accessibility
+
+901.01	reviewable
+
+901.01.01	journal literature (TAS)
+901.01.01.01 		PubMed uid
+901.01.01.02		non PubMed uid
+
+901.01.02	database (TAS) or (IEA)
+901.01.02.01		open access (Web)
+901.01.02.02		restricted access  
+
+901.01.03	overview information (TAS/NAS)
+901.01.03.01		review
+901.01.03.02		text book
+
+901.01.04	personal communication (TAS/NAS)
+901.01.04.01		homepage (Web)
+901.01.04.02		e-mail address
+
+901.01.05	closed information (NAS)
+901.01.05.01		institution
+901.01.05.02		private
+
+
+902 information manner
+
+902.01	experimental (IDA)
+
+902.01.01	protein assay
+
+902.01.01.01		activity
+
+902.01.01.02		interaction
+
+902.01.01.02.01			physical 
+
+902.01.01.02.01.01			co-immunoprecipitation
+
+902.01.01.02.01.01.01				co-immunoprecipitation, native
+902.01.01.02.01.01.02				co-immunoprecipitation, epitope tag
+
+902.01.01.02.01.02			affinity chromatography
+902.01.01.02.01.02.01				affinity chromatography, native
+902.01.01.02.01.02.02				affinity chromatography, affinity-tag (GST, His6, MBP, ...) 
+
+902.01.01.02.01.03			centrifugation
+902.01.01.02.01.03.01				centrifugation, co-fractionation
+902.01.01.02.01.03.02				centrifugation, co-sedimentation
+
+902.01.01.02.01.04			gel retardation
+
+902.01.01.02.01.05			cross linking
+902.01.01.02.01.05.01				cross linking, chemical
+902.01.01.02.01.05.01.01				cross linking, chemical, thiol-specific oxidative (Cystein)
+902.01.01.02.01.05.01.02				cross linking, chemical, amine-specific (gamma and partially alpha aminogroup)
+902.01.01.02.01.05.02				cross linking, UV
+902.01.01.02.01.05.02.01				cross linking, UV, amin-specific Lysin		
+902.01.01.02.01.05.02.02				cross linking, UV, amin-specific Glycin
+
+902.01.01.02.01.06			in vitro reconstitution
+
+902.01.01.02.01.07			two hybrid
+902.01.01.02.01.07.01				two hybrid, yeast system
+902.01.01.02.01.07.02				two hybrid, bacteria system
+902.01.01.02.01.07.03				two hybrid, mammalian cell system
+
+
+902.01.01.02.01.08			Overlay (e.g. Far-Western Blot)
+
+902.01.01.02.01.09			Energy transfer
+902.01.01.02.01.09.01				Energy transfer, fluorescent (FRET)
+902.01.01.02.01.09.02				Energy transfer, scintillation proximity Assay (SPA)
+
+902.01.01.02.01.10			surface plasmon resonance (BIAcore)
+
+902.01.01.02.01.11			phage display (expression cloning)
+
+902.01.01.02.01.12 			Immunodiffusion (Ouchterlony)
+
+902.01.01.02.02			genetic
+
+902.01.01.02.02.01			suppression
+902.01.01.02.02.01.01				suppression mutation
+902.01.01.02.02.01.01.01				suppression knockout
+902.01.01.02.02.01.01.02				suppression partial alteration
+902.01.01.02.02.01.02				suppression expression alteration
+902.01.01.02.02.01.02.01				suppression overexpression
+902.01.01.02.02.01.02.02				suppression underexpression
+902.01.01.02.02.01.02.03				suppression scalable
+
+902.01.01.02.02.02			synthetic phenotype
+902.01.01.02.02.02.01				synthetic lethal
+902.01.01.02.02.02.02				conditional synthetic lethal
+902.01.01.02.02.02.02.01				conditional synthetic lethal temperature-sensitivity
+902.01.01.02.02.02.02.02				conditional synthetic lethal nutrition-sensitivity
+902.01.01.02.02.02.03				synthetic growth effect
+
+902.01.01.02.99			not yet defined
+
+902.01.01.03		localisation
+902.01.01.03.01			immuno-fluorescent
+902.01.01.03.02			fluorescent-fusion protein (GFP)
+902.01.01.03.03			sedimentation gradient
+
+902.01.01.04		protein size
+902.01.01.04.01			mass spectrometry (MS)
+902.01.01.04.01.01			with in-line two-dimensional liquid chromatography (MudPIT)
+
+902.01.02	RNA assay 
+902.01.02.01		EST/cDNA (IEP)
+902.01.02.01.01			oligo-based arrays/chips
+902.01.02.01.02			cDNA/EST-based chips/micro- macroarrays/membrane
+902.01.02.01.03			Other reporting/monitoring systems
+902.01.02.02		SAGE
+902.01.02.02.01			parallelized techniques (mainly RT-PCR based, like RACE, competitive PCR...)
+902.01.02.03		artifical expression systems
+902.01.02.03.01			endogenous expression 
+902.01.02.03.02			transgenetic expression (other species or tissue)
+902.01.02.04		TRANSPOSON tagging
+
+902.01.03	DNA assay	
+
+902.01.04	Genetic screen
+902.01.04.01		mutant phenotype (IMP)
+
+902.01.09	experiment type
+902.01.09.01		individual experiment
+902.01.09.02		high throughput experiment
+
+
+902.02	predicted 
+902.02.01	similarity (ISS)
+902.02.01.01		sequence similarity
+902.02.01.02		structure similarity
+902.02.02	other computational methods
+
+# YPD terms:
+# E: Experimentally determined
+# PS: Predicted by sequence similarity
+# PO: Predicted by analysis other than seq. similarity
+# PK: Predicted by BioKnow ledgeTM Transfer by Proteome, Inc. 
+#
+# GO terms:
+# IMP inferred from mutant phenotype
+# IGI inferred from genetic interaction [with <database:gene_symbol[allele_symbol]>]
+# IPI inferred from physical interaction [with <database:protein_name>]
+# ISS inferred from sequence similarity [with <database:sequence_id>]
+# IDA inferred from direct assay
+# IEP inferred from expression pattern
+# IEA inferred from electronic annotation [to <database:id>]
+# TAS traceable author statement
+# NAS non-traceable author statement
+
+
+

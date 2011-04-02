@@ -1,0 +1,29 @@
+## gff-version 1
+## date: Thu Mar  4 04:55:55 2004
+## HMMgene1.1a (human model sim10gc.C.bsmod)
+
+# SEQ: unknown 20000 (+) A:4886 C:5118 G:5156 T:4840
+unknown HMMgene1.1a     firstex 1545    1586    0.647   +       0       bestparse:cds_1
+unknown HMMgene1.1a     exon_1  3024    3170    0.653   +       0       bestparse:cds_1
+unknown HMMgene1.1a     exon_2  5113    5199    0.504   +       0       bestparse:cds_1
+unknown HMMgene1.1a     exon_3  5458    5496    0.991   +       0       bestparse:cds_1
+unknown HMMgene1.1a     exon_4  6947    7053    0.998   +       2       bestparse:cds_1
+unknown HMMgene1.1a     exon_5  7133    7196    0.996   +       0       bestparse:cds_1
+unknown HMMgene1.1a     exon_6  7310    7472    0.993   +       1       bestparse:cds_1
+unknown HMMgene1.1a     exon_7  7578    7644    0.998   +       2       bestparse:cds_1
+unknown HMMgene1.1a     exon_8  7737    7938    0.993   +       0       bestparse:cds_1
+unknown HMMgene1.1a     exon_9  9071    9287    0.975   +       1       bestparse:cds_1
+unknown HMMgene1.1a     lastex  10080   10186   0.969   +       0       bestparse:cds_1
+unknown HMMgene1.1a     CDS     1545    10186   0.187   +       .       bestparse:cds_1
+unknown HMMgene1.1a     firstex 15468   15578   1.000   +       0       bestparse:cds_2
+unknown HMMgene1.1a     exon_1  18439   18564   0.970   +       0       bestparse:cds_2
+unknown HMMgene1.1a     exon_2  19685   19751   0.610   +       1       bestparse:cds_2
+unknown HMMgene1.1a     exon_3  19878   19977   0.613   +       2       bestparse:cds_2
+unknown HMMgene1.1a     CDS     15468   20000   0.549   +       .       bestparse:cds_2
+# SEQ: unknown 20000 (-) A:4840 C:5156 G:5118 T:4886
+unknown HMMgene1.1a     firstex 15508   15623   0.699   -       2       bestparse:cds_1
+unknown HMMgene1.1a     exon_1  14273   14499   0.252   -       1       bestparse:cds_1
+unknown HMMgene1.1a     exon_2  12424   12717   0.497   -       1       bestparse:cds_1
+unknown HMMgene1.1a     exon_3  12194   12297   0.908   -       0       bestparse:cds_1
+unknown HMMgene1.1a     lastex  11723   11878   0.283   -       0       bestparse:cds_1
+unknown HMMgene1.1a     CDS     11723   15623   0.029   -       .       bestparse:cds_1 

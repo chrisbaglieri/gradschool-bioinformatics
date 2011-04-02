@@ -1,0 +1,11 @@
+YJR091C	JSN1	3276	mRNA catabolism, deadenylation-dependent	mRNA binding	cellular_component unknown	S0003851
+YLR229C	CDC42	576	establishment of cell polarity (sensu Saccharomyces)*	GTPase activity*	plasma membrane*	S0004219
+YPR135W	CTF4	2784	DNA repair*	DNA binding	nucleus*	S0006339
+YOR144C	ELG1	2376	DNA replication*	molecular_function unknown	cytoplasm*	S0005670
+YDL043C	PRP11	801	spliceosome assembly	RNA binding	snRNP U2	S0002201
+YOR349W	CIN1	3045	post-chaperonin tubulin folding pathway*	co-chaperone activity	microtubule	S0005876
+YPL051W	ARL3	597	intracellular protein transport	GTPase activity	soluble fraction*	S0005972
+YGL127C	SOH1	384	DNA repair*	molecular_function unknown	nucleus	S0003095
+YER146W	LSM5	282	nuclear mRNA splicing, via spliceosome*	pre-mRNA splicing factor activity	small nuclear ribonucleoprotein complex	S0000948
+YCL061C	MRC1	3291	chromatin silencing at telomere*	molecular_function unknown	nucleus*	S0000566
+YER112W	LSM4	564	nuclear mRNA splicing, via spliceosome*	pre-mRNA splicing factor activity	small nuclear ribonucleoprotein complex	S0000914

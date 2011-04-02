@@ -1,0 +1,913 @@
+BLASTP 2.2.8 [Jan-05-2004]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+RID: 1078754739-28872-108884937058.BLASTQ3
+Query= 
+         (135 letters)
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF 
+           2,677,049 sequences; 748,045,263 total letters
+
+Results of PSI-Blast iteration 1
+Sequences with E-value BETTER than threshold                                                                     Score    E
+Sequences producing significant alignments:                          (bits) Value
+
+gi|7305619|ref|NP_038728.1| ubiquitin specific protease 5 (isopeptida...   280   3e-75
+gi|34858442|ref|XP_238380.2| similar to Ubiquitin carboxyl-terminal h...   278   2e-74
+gi|1732411|gb|AAB51314.1| isopeptidase T [Homo sapiens] >gi|13436149|...   270   4e-72
+gi|30583883|gb|AAP36190.1| Homo sapiens ubiquitin specific protease 5...   270   4e-72
+gi|1717869|sp|P45974|UBP5_HUMAN Ubiquitin carboxyl-terminal hydrolase...   270   4e-72
+gi|1585128|prf||2124276A isopeptidase T                                    270   4e-72
+gi|4507855|ref|NP_003472.1| Ubiquitin isopeptidase T; Ubiquitin-speci...   270   4e-72
+gi|2134982|pir||S68227 ubiquitin thiolesterase (EC 3.1.2.15) - human ...   267   3e-71
+gi|36939185|gb|AAQ86957.1| isopeptidase T [Xenopus laevis]                 204   2e-52
+gi|44890334|gb|AAH66694.1| Unknown (protein for MGC:76990) [Danio rerio]   173   6e-43
+gi|38076222|ref|XP_130826.2| RIKEN cDNA 2700071E21 [Mus musculus]          138   2e-32
+gi|34856802|ref|XP_227025.2| similar to Ubiquitin carboxyl-terminal h...   138   2e-32
+gi|4507849|ref|NP_003931.1| ubiquitin specific protease 13 (isopeptid...   138   2e-32
+gi|16359380|gb|AAH16146.1| Ubiquitin specific protease 13 (isopeptida...   137   3e-32
+gi|11993473|gb|AAG42755.1| ubiquitin-specific protease 14 [Arabidopsi...   122   1e-27
+gi|22331218|ref|NP_566666.2| ubiquitin-specific protease 14, putative...   122   1e-27
+gi|24656476|ref|NP_647773.1| CG12082-PA [Drosophila melanogaster] >gi...   101   4e-21
+gi|31239761|ref|XP_320294.1| ENSANGP00000009085 [Anopheles gambiae] >...    99   1e-20
+gi|1718037|sp|P54201|UBPA_DICDI Ubiquitin carboxyl-terminal hydrolase...    88   3e-17
+gi|43599044|gb|EAE54375.1| unknown [environmental sequence]                 75   3e-13
+gi|32399031|emb|CAD98271.1| ubiquitin-specific protease, probable [Cr...    62   3e-09
+gi|39580982|emb|CAE72952.1| Hypothetical protein CBG20283 [Caenorhabd...    59   2e-08
+gi|7508544|pir||T25921 hypothetical protein T27A3.2 - Caenorhabditis ...    58   4e-08
+gi|25144248|ref|NP_491765.2| ubiquitin specific protease (88.8 kD) (1...    58   4e-08
+gi|43345616|gb|EAD37935.1| unknown [environmental sequence]                 57   7e-08
+gi|42547076|gb|EAA69919.1| hypothetical protein FG02640.1 [Gibberella...    41   0.004
+
+Sequences with E-value WORSE than threshold
+gi|32410303|ref|XP_325632.1| hypothetical protein [Neurospora crassa]...    40   0.010
+gi|29251340|gb|EAA42822.1| GLP_574_53018_55165 [Giardia lamblia ATCC ...    40   0.014
+gi|38111782|gb|EAA57301.1| hypothetical protein MG08270.4 [Magnaporth...    39   0.016
+gi|43219884|gb|EAC75503.1| unknown [environmental sequence]                 39   0.021
+gi|1902995|dbj|BAA12032.1| unnamed protein product [Schizosaccharomyc...    39   0.027
+gi|19112877|ref|NP_596085.1| ubiquitin carboxyl-terminal hydrolase [S...    38   0.046
+gi|45201118|ref|NP_986688.1| AGR023Cp [Eremothecium gossypii] >gi|449...    35   0.24 
+gi|586499|sp|P38237|UBPE_YEAST Ubiquitin carboxyl-terminal hydrolase ...    35   0.37 
+gi|37362616|ref|NP_009614.2| Functional homolog of mammalian isopepti...    35   0.37 
+gi|18141287|gb|AAL60581.1| senescence-associated cysteine protease [B...    35   0.45 
+gi|38076669|ref|XP_356759.1| similar to Rpl7a protein [Mus musculus]        33   1.2  
+gi|23510123|ref|NP_702789.1| ubiquitin carboxyl-terminal hydrolase a,...    32   3.8  
+gi|34539975|ref|NP_904454.1| hypothetical protein PG0109 [Porphyromon...    32   3.9  
+gi|29831113|ref|NP_825747.1| hypothetical protein [Streptomyces averm...    31   4.1  
+gi|19224135|gb|AAL86406.1| Cpa [Streptococcus pyogenes]                     31   4.5  
+gi|32493399|gb|AAH54536.1| Adam11 protein [Mus musculus]                    31   5.1  
+gi|34880697|ref|XP_346320.1| similar to 60S ribosomal protein L7a (Su...    31   5.3  
+gi|6752960|ref|NP_033743.1| a disintegrin and metalloprotease domain ...    31   5.4  
+gi|43951048|gb|EAG31392.1| unknown [environmental sequence]                 31   5.5  
+gi|34932126|ref|XP_225910.2| similar to Rpl7a protein [Rattus norvegi...    31   6.0  
+
+ALIGNMENTS
+>gi|7305619|ref|NP_038728.1| ubiquitin specific protease 5 (isopeptidase T); ubiquitin carboxy
+           terminal hydrolase T [Mus musculus]
+ gi|3024764|sp|P56399|UBP5_MOUSE Ubiquitin carboxyl-terminal hydrolase 5 (Ubiquitin thiolesterase 5)
+           (Ubiquitin-specific processing protease 5)
+           (Deubiquitinating enzyme 5) (Isopeptidase T)
+ gi|3287373|gb|AAC36015.1| ISOT [Mus musculus]
+ gi|45219891|gb|AAH66993.1| Ubiquitin specific protease 5 (isopeptidase T) [Mus musculus]
+          Length = 858
+
+ Score =  280 bits (717), Expect = 3e-75
+ Identities = 135/135 (100%), Positives = 135/135 (100%)
+
+Query: 1   MAELSEEALLSVLPTIRVPKAGDRVHKDECAFSFDTPESEGGLYICMNTFLGFGKQYVER 60
+           MAELSEEALLSVLPTIRVPKAGDRVHKDECAFSFDTPESEGGLYICMNTFLGFGKQYVER
+Sbjct: 1   MAELSEEALLSVLPTIRVPKAGDRVHKDECAFSFDTPESEGGLYICMNTFLGFGKQYVER 60
+
+Query: 61  HFNKTGQRVYLHLRRTRRPKEEDTSAGTGDPPRKKPTRLAIGVEGGFDLTEDKFEFDEDV 120
+           HFNKTGQRVYLHLRRTRRPKEEDTSAGTGDPPRKKPTRLAIGVEGGFDLTEDKFEFDEDV
+Sbjct: 61  HFNKTGQRVYLHLRRTRRPKEEDTSAGTGDPPRKKPTRLAIGVEGGFDLTEDKFEFDEDV 120
+
+Query: 121 KIVILPDYLEIARDG 135
+           KIVILPDYLEIARDG
+Sbjct: 121 KIVILPDYLEIARDG 135
+
+
+>gi|34858442|ref|XP_238380.2| similar to Ubiquitin carboxyl-terminal hydrolase 5 (Ubiquitin
+           thiolesterase 5) (Ubiquitin-specific processing protease
+           5) (Deubiquitinating enzyme 5) (Isopeptidase T) [Rattus
+           norvegicus]
+          Length = 858
+
+ Score =  278 bits (711), Expect = 2e-74
+ Identities = 133/135 (98%), Positives = 135/135 (100%)
+
+Query: 1   MAELSEEALLSVLPTIRVPKAGDRVHKDECAFSFDTPESEGGLYICMNTFLGFGKQYVER 60
+           MAELSEEALLSVLPTIRVPKAGDRVHKDECAFSFDTPESEGGLYICMNTFLGFGKQYVER
+Sbjct: 1   MAELSEEALLSVLPTIRVPKAGDRVHKDECAFSFDTPESEGGLYICMNTFLGFGKQYVER 60
+
+Query: 61  HFNKTGQRVYLHLRRTRRPKEEDTSAGTGDPPRKKPTRLAIGVEGGFDLTEDKFEFDEDV 120
+           HFNKTGQRVYLHLRRTRRPKEED+SAGTGDPPRKKPTRLAIGVEGGFDLTEDKFE+DEDV
+Sbjct: 61  HFNKTGQRVYLHLRRTRRPKEEDSSAGTGDPPRKKPTRLAIGVEGGFDLTEDKFEYDEDV 120
+
+Query: 121 KIVILPDYLEIARDG 135
+           KIVILPDYLEIARDG
+Sbjct: 121 KIVILPDYLEIARDG 135
+
+
+>gi|1732411|gb|AAB51314.1| isopeptidase T [Homo sapiens]
+ gi|13436149|gb|AAH04889.1| Ubiquitin isopeptidase T [Homo sapiens]
+          Length = 835
+
+ Score =  270 bits (691), Expect = 4e-72
+ Identities = 129/135 (95%), Positives = 132/135 (97%)
+
+Query: 1   MAELSEEALLSVLPTIRVPKAGDRVHKDECAFSFDTPESEGGLYICMNTFLGFGKQYVER 60
+           MAELSEEALLSVLPTIRVPKAGDRVHKDECAFSFDTPESEGGLYICMNTFLGFGKQYVER
+Sbjct: 1   MAELSEEALLSVLPTIRVPKAGDRVHKDECAFSFDTPESEGGLYICMNTFLGFGKQYVER 60
+
+Query: 61  HFNKTGQRVYLHLRRTRRPKEEDTSAGTGDPPRKKPTRLAIGVEGGFDLTEDKFEFDEDV 120
+           HFNKTGQRVYLHLRRTRRPKEED + GTGDPPRKKPTRLAIGVEGGFDL+E+KFE DEDV
+Sbjct: 61  HFNKTGQRVYLHLRRTRRPKEEDPATGTGDPPRKKPTRLAIGVEGGFDLSEEKFELDEDV 120
+
+Query: 121 KIVILPDYLEIARDG 135
+           KIVILPDYLEIARDG
+Sbjct: 121 KIVILPDYLEIARDG 135
+
+
+>gi|30583883|gb|AAP36190.1| Homo sapiens ubiquitin specific protease 5 (isopeptidase T)
+           [synthetic construct]
+          Length = 836
+
+ Score =  270 bits (691), Expect = 4e-72
+ Identities = 129/135 (95%), Positives = 132/135 (97%)
+
+Query: 1   MAELSEEALLSVLPTIRVPKAGDRVHKDECAFSFDTPESEGGLYICMNTFLGFGKQYVER 60
+           MAELSEEALLSVLPTIRVPKAGDRVHKDECAFSFDTPESEGGLYICMNTFLGFGKQYVER
+Sbjct: 1   MAELSEEALLSVLPTIRVPKAGDRVHKDECAFSFDTPESEGGLYICMNTFLGFGKQYVER 60
+
+Query: 61  HFNKTGQRVYLHLRRTRRPKEEDTSAGTGDPPRKKPTRLAIGVEGGFDLTEDKFEFDEDV 120
+           HFNKTGQRVYLHLRRTRRPKEED + GTGDPPRKKPTRLAIGVEGGFDL+E+KFE DEDV
+Sbjct: 61  HFNKTGQRVYLHLRRTRRPKEEDPATGTGDPPRKKPTRLAIGVEGGFDLSEEKFELDEDV 120
+
+Query: 121 KIVILPDYLEIARDG 135
+           KIVILPDYLEIARDG
+Sbjct: 121 KIVILPDYLEIARDG 135
+
+
+>gi|1717869|sp|P45974|UBP5_HUMAN Ubiquitin carboxyl-terminal hydrolase 5 (Ubiquitin thiolesterase 5)
+           (Ubiquitin-specific processing protease 5)
+           (Deubiquitinating enzyme 5) (Isopeptidase T)
+ gi|1208744|gb|AAC50465.1| isopeptidase T
+ gi|1732412|gb|AAB51315.1| isopeptidase T [Homo sapiens]
+ gi|13477329|gb|AAH05139.1| USP5 protein [Homo sapiens]
+          Length = 858
+
+ Score =  270 bits (690), Expect = 4e-72
+ Identities = 129/135 (95%), Positives = 132/135 (97%)
+
+Query: 1   MAELSEEALLSVLPTIRVPKAGDRVHKDECAFSFDTPESEGGLYICMNTFLGFGKQYVER 60
+           MAELSEEALLSVLPTIRVPKAGDRVHKDECAFSFDTPESEGGLYICMNTFLGFGKQYVER
+Sbjct: 1   MAELSEEALLSVLPTIRVPKAGDRVHKDECAFSFDTPESEGGLYICMNTFLGFGKQYVER 60
+
+Query: 61  HFNKTGQRVYLHLRRTRRPKEEDTSAGTGDPPRKKPTRLAIGVEGGFDLTEDKFEFDEDV 120
+           HFNKTGQRVYLHLRRTRRPKEED + GTGDPPRKKPTRLAIGVEGGFDL+E+KFE DEDV
+Sbjct: 61  HFNKTGQRVYLHLRRTRRPKEEDPATGTGDPPRKKPTRLAIGVEGGFDLSEEKFELDEDV 120
+
+Query: 121 KIVILPDYLEIARDG 135
+           KIVILPDYLEIARDG
+Sbjct: 121 KIVILPDYLEIARDG 135
+
+
+>gi|1585128|prf||2124276A isopeptidase T
+          Length = 834
+
+ Score =  270 bits (690), Expect = 4e-72
+ Identities = 129/135 (95%), Positives = 132/135 (97%)
+
+Query: 1   MAELSEEALLSVLPTIRVPKAGDRVHKDECAFSFDTPESEGGLYICMNTFLGFGKQYVER 60
+           MAELSEEALLSVLPTIRVPKAGDRVHKDECAFSFDTPESEGGLYICMNTFLGFGKQYVER
+Sbjct: 1   MAELSEEALLSVLPTIRVPKAGDRVHKDECAFSFDTPESEGGLYICMNTFLGFGKQYVER 60
+
+Query: 61  HFNKTGQRVYLHLRRTRRPKEEDTSAGTGDPPRKKPTRLAIGVEGGFDLTEDKFEFDEDV 120
+           HFNKTGQRVYLHLRRTRRPKEED + GTGDPPRKKPTRLAIGVEGGFDL+E+KFE DEDV
+Sbjct: 61  HFNKTGQRVYLHLRRTRRPKEEDPATGTGDPPRKKPTRLAIGVEGGFDLSEEKFELDEDV 120
+
+Query: 121 KIVILPDYLEIARDG 135
+           KIVILPDYLEIARDG
+Sbjct: 121 KIVILPDYLEIARDG 135
+
+
+>gi|4507855|ref|NP_003472.1| Ubiquitin isopeptidase T; Ubiquitin-specific protease-5 (ubiquitin
+           isopeptidase T) [Homo sapiens]
+ gi|1008542|gb|AAA78934.1| ubiquitin isopeptidase T [Homo sapiens]
+          Length = 835
+
+ Score =  270 bits (690), Expect = 4e-72
+ Identities = 129/135 (95%), Positives = 132/135 (97%)
+
+Query: 1   MAELSEEALLSVLPTIRVPKAGDRVHKDECAFSFDTPESEGGLYICMNTFLGFGKQYVER 60
+           MAELSEEALLSVLPTIRVPKAGDRVHKDECAFSFDTPESEGGLYICMNTFLGFGKQYVER
+Sbjct: 1   MAELSEEALLSVLPTIRVPKAGDRVHKDECAFSFDTPESEGGLYICMNTFLGFGKQYVER 60
+
+Query: 61  HFNKTGQRVYLHLRRTRRPKEEDTSAGTGDPPRKKPTRLAIGVEGGFDLTEDKFEFDEDV 120
+           HFNKTGQRVYLHLRRTRRPKEED + GTGDPPRKKPTRLAIGVEGGFDL+E+KFE DEDV
+Sbjct: 61  HFNKTGQRVYLHLRRTRRPKEEDPATGTGDPPRKKPTRLAIGVEGGFDLSEEKFELDEDV 120
+
+Query: 121 KIVILPDYLEIARDG 135
+           KIVILPDYLEIARDG
+Sbjct: 121 KIVILPDYLEIARDG 135
+
+
+>gi|2134982|pir||S68227 ubiquitin thiolesterase (EC 3.1.2.15) - human
+ gi|1122278|emb|CAA62690.1| de-ubiquitinase [Homo sapiens]
+          Length = 858
+
+ Score =  267 bits (682), Expect = 3e-71
+ Identities = 126/135 (93%), Positives = 132/135 (97%)
+
+Query: 1   MAELSEEALLSVLPTIRVPKAGDRVHKDECAFSFDTPESEGGLYICMNTFLGFGKQYVER 60
+           MA++SEEALLSVLPTIRVPKAGDRVHKDECAFSFDTPESEGGLY+CMNTFLGFGKQYVER
+Sbjct: 1   MADVSEEALLSVLPTIRVPKAGDRVHKDECAFSFDTPESEGGLYVCMNTFLGFGKQYVER 60
+
+Query: 61  HFNKTGQRVYLHLRRTRRPKEEDTSAGTGDPPRKKPTRLAIGVEGGFDLTEDKFEFDEDV 120
+           HFNKTGQRVYLHLRRTRRPKEED + GTGDPPRKKPTRLAIGVEGGFDL+E+KFE DEDV
+Sbjct: 61  HFNKTGQRVYLHLRRTRRPKEEDPATGTGDPPRKKPTRLAIGVEGGFDLSEEKFELDEDV 120
+
+Query: 121 KIVILPDYLEIARDG 135
+           KIVILPDYLEIARDG
+Sbjct: 121 KIVILPDYLEIARDG 135
+
+
+>gi|36939185|gb|AAQ86957.1| isopeptidase T [Xenopus laevis]
+          Length = 854
+
+ Score =  204 bits (520), Expect = 2e-52
+ Identities = 89/130 (68%), Positives = 119/130 (91%)
+
+Query: 6   EEALLSVLPTIRVPKAGDRVHKDECAFSFDTPESEGGLYICMNTFLGFGKQYVERHFNKT 65
+           ++AL+SVLPTIRVP+AGDRVHKDECA+SF TPE++ GLYICMNTFLGFG+ YVE+ +NKT
+Sbjct: 4   KDALVSVLPTIRVPRAGDRVHKDECAYSFHTPETDSGLYICMNTFLGFGRPYVEQQYNKT 63
+
+Query: 66  GQRVYLHLRRTRRPKEEDTSAGTGDPPRKKPTRLAIGVEGGFDLTEDKFEFDEDVKIVIL 125
+           GQR +LH++RT + K +++++GTGDPPRKKPTRLAIG+EGGFD++E++ E++E +K+VIL
+Sbjct: 64  GQRAFLHVKRTPKMKSDESNSGTGDPPRKKPTRLAIGMEGGFDMSEEQCEYEEVLKLVIL 123
+
+Query: 126 PDYLEIARDG 135
+           P++LEI RDG
+Sbjct: 124 PEFLEIPRDG 133
+
+
+>gi|44890334|gb|AAH66694.1| Unknown (protein for MGC:76990) [Danio rerio]
+          Length = 834
+
+ Score =  173 bits (439), Expect = 6e-43
+ Identities = 86/135 (63%), Positives = 111/135 (82%), Gaps = 4/135 (2%)
+
+Query: 1   MAELSEEALLSVLPTIRVPKAGDRVHKDECAFSFDTPESEGGLYICMNTFLGFGKQYVER 60
+           M E+SE  L+SVL  IRVP+ GDRVHKDECAFSF +PESEGGLY+CMN+FLGFG +YV+R
+Sbjct: 1   MTEVSE-ILMSVLSAIRVPRPGDRVHKDECAFSFSSPESEGGLYVCMNSFLGFGSKYVDR 59
+
+Query: 61  HFNKTGQRVYLHLRRTRRP-KEEDTSAGTGDPPRKKPTRLAIGVEGGFDLTEDKFEFDED 119
+           H  KTGQR YLH+ RTR+  KE+D ++G+GDPP+KKPTRLAIG+EGGFD   ++ +++E+
+Sbjct: 60  HHAKTGQRAYLHITRTRKTQKEDDPNSGSGDPPKKKPTRLAIGIEGGFD--VEQEQYEEE 117
+
+Query: 120 VKIVILPDYLEIARD 134
+           VK+V+ PD  E+  D
+Sbjct: 118 VKVVLFPDRQEVTLD 132
+
+
+>gi|38076222|ref|XP_130826.2| RIKEN cDNA 2700071E21 [Mus musculus]
+          Length = 882
+
+ Score =  138 bits (348), Expect = 2e-32
+ Identities = 65/126 (51%), Positives = 95/126 (75%), Gaps = 2/126 (1%)
+
+Query: 7   EALLSVLPTIRVPKAGDRVHKDECAFSFDTPESEGGLYICMNTFLGFGKQYVERHFNKTG 66
+           E L+  +PTIRVP++GDRV+K+ECAFS+D+P SEGGLY+CMNTFL FG+++VERHF KTG
+Sbjct: 24  ELLVPHMPTIRVPRSGDRVYKNECAFSYDSPNSEGGLYVCMNTFLAFGREHVERHFRKTG 83
+
+Query: 67  QRVYLHLRRTRRPKEEDTSAGTGDPPRKKPTRLAIGVEGGFDLTEDKFEFDEDVKIVILP 126
+           Q VY+HL+R  R K    S G    P+++ +++ + ++   DL  D +E++++ K+VI P
+Sbjct: 84  QSVYMHLKRHMREKVRGASGGA--LPKRRNSKIFLDLDMDDDLNSDDYEYEDEAKLVIFP 141
+
+Query: 127 DYLEIA 132
+           D+ EIA
+Sbjct: 142 DHYEIA 147
+
+
+>gi|34856802|ref|XP_227025.2| similar to Ubiquitin carboxyl-terminal hydrolase 13 (Ubiquitin
+           thiolesterase 13) (Ubiquitin-specific processing
+           protease 13) (Deubiquitinating enzyme 13) (Isopeptidase
+           T-3) (ISOT-3) [Rattus norvegicus]
+          Length = 942
+
+ Score =  138 bits (348), Expect = 2e-32
+ Identities = 66/126 (52%), Positives = 95/126 (75%), Gaps = 2/126 (1%)
+
+Query: 7   EALLSVLPTIRVPKAGDRVHKDECAFSFDTPESEGGLYICMNTFLGFGKQYVERHFNKTG 66
+           E L+  +PTIRVP++GDRV+K+ECAFS+D+P SEGGLY+CMNTFL FG+++VERHF KTG
+Sbjct: 24  ELLVPHMPTIRVPRSGDRVYKNECAFSYDSPNSEGGLYVCMNTFLAFGREHVERHFRKTG 83
+
+Query: 67  QRVYLHLRRTRRPKEEDTSAGTGDPPRKKPTRLAIGVEGGFDLTEDKFEFDEDVKIVILP 126
+           Q VY+HL+R  R K    S G    P+++ ++L + ++   DL  D +E++++ K+VI P
+Sbjct: 84  QSVYMHLKRHMREKVRGASGGA--LPKRRNSKLFLDLDMDDDLNSDDYEYEDEAKLVIFP 141
+
+Query: 127 DYLEIA 132
+           D+ EIA
+Sbjct: 142 DHYEIA 147
+
+
+>gi|4507849|ref|NP_003931.1| ubiquitin specific protease 13 (isopeptidase T-3) [Homo sapiens]
+ gi|2501459|sp|Q92995|UB13_HUMAN Ubiquitin carboxyl-terminal hydrolase 13 (Ubiquitin thiolesterase
+           13) (Ubiquitin-specific processing protease 13)
+           (Deubiquitinating enzyme 13) (Isopeptidase T-3) (ISOT-3)
+ gi|1658463|gb|AAC63405.1| isopeptidase T-3 [Homo sapiens]
+          Length = 863
+
+ Score =  138 bits (348), Expect = 2e-32
+ Identities = 65/126 (51%), Positives = 95/126 (75%), Gaps = 2/126 (1%)
+
+Query: 7   EALLSVLPTIRVPKAGDRVHKDECAFSFDTPESEGGLYICMNTFLGFGKQYVERHFNKTG 66
+           E L+  +PTIRVP++GDRV+K+ECAFS+D+P SEGGLY+CMNTFL FG+++VERHF KTG
+Sbjct: 26  ELLVPHMPTIRVPRSGDRVYKNECAFSYDSPNSEGGLYVCMNTFLAFGREHVERHFRKTG 85
+
+Query: 67  QRVYLHLRRTRRPKEEDTSAGTGDPPRKKPTRLAIGVEGGFDLTEDKFEFDEDVKIVILP 126
+           Q VY+HL+R  R K    S G    P+++ +++ + ++   DL  D +E++++ K+VI P
+Sbjct: 86  QSVYMHLKRHAREKVRGASGGA--LPKRRNSKIFLDLDTDDDLNSDDYEYEDEAKLVIFP 143
+
+Query: 127 DYLEIA 132
+           D+ EIA
+Sbjct: 144 DHYEIA 149
+
+
+>gi|16359380|gb|AAH16146.1| Ubiquitin specific protease 13 (isopeptidase T-3) [Homo sapiens]
+          Length = 863
+
+ Score =  137 bits (346), Expect = 3e-32
+ Identities = 65/126 (51%), Positives = 95/126 (75%), Gaps = 2/126 (1%)
+
+Query: 7   EALLSVLPTIRVPKAGDRVHKDECAFSFDTPESEGGLYICMNTFLGFGKQYVERHFNKTG 66
+           E L+  +PTIRVP++GDRV+K+ECAFS+D+P SEGGLY+CMNTFL FG+++VERHF KTG
+Sbjct: 26  ELLVPHMPTIRVPRSGDRVYKNECAFSYDSPNSEGGLYVCMNTFLAFGREHVERHFRKTG 85
+
+Query: 67  QRVYLHLRRTRRPKEEDTSAGTGDPPRKKPTRLAIGVEGGFDLTEDKFEFDEDVKIVILP 126
+           Q VY+HL+R  R K    S G    P+++ +++ + ++   DL  D +E++++ K+VI P
+Sbjct: 86  QSVYMHLKRHVREKVRGASGGA--LPKRRNSKIFLDLDTDDDLNSDDYEYEDEAKLVIFP 143
+
+Query: 127 DYLEIA 132
+           D+ EIA
+Sbjct: 144 DHYEIA 149
+
+
+>gi|11993473|gb|AAG42755.1| ubiquitin-specific protease 14 [Arabidopsis thaliana]
+          Length = 797
+
+ Score =  122 bits (306), Expect = 1e-27
+ Identities = 62/125 (49%), Positives = 83/125 (66%), Gaps = 9/125 (7%)
+
+Query: 7   EALLSVLPTIRVPKAGDRVHKDECAFSFDTPESEGGLYICMNTFLGFGKQYVERHFNKTG 66
+           E L S L  +++P+   R++K EC  SFDTP SEGGL++ MN+FL FGK YV  ++ KTG
+Sbjct: 2   ELLRSNLSRVQIPEPTHRIYKHECCISFDTPRSEGGLFVDMNSFLAFGKDYVSWNYEKTG 61
+
+Query: 67  QRVYLHLRRTRRPKEEDTSAGTGDPPRKKPTRLAIGVEGGFDLTEDKFEFDEDVKIVILP 126
+             VYLH+++TR+   ED        P KKPT LAIGV+GGFD  E   E++E   IVILP
+Sbjct: 62  NPVYLHIKQTRKSIPEDR-------PLKKPTLLAIGVDGGFDNNEP--EYEESYSIVILP 112
+
+Query: 127 DYLEI 131
+           D++ +
+Sbjct: 113 DFVSL 117
+
+
+>gi|22331218|ref|NP_566666.2| ubiquitin-specific protease 14, putative (UBP14) [Arabidopsis
+           thaliana]
+ gi|22655294|gb|AAM98237.1| ubiquitin-specific protease 14 (UBP14), putative [Arabidopsis
+           thaliana]
+          Length = 797
+
+ Score =  122 bits (306), Expect = 1e-27
+ Identities = 62/125 (49%), Positives = 83/125 (66%), Gaps = 9/125 (7%)
+
+Query: 7   EALLSVLPTIRVPKAGDRVHKDECAFSFDTPESEGGLYICMNTFLGFGKQYVERHFNKTG 66
+           E L S L  +++P+   R++K EC  SFDTP SEGGL++ MN+FL FGK YV  ++ KTG
+Sbjct: 2   ELLRSNLSRVQIPEPTHRIYKHECCISFDTPRSEGGLFVDMNSFLAFGKDYVSWNYEKTG 61
+
+Query: 67  QRVYLHLRRTRRPKEEDTSAGTGDPPRKKPTRLAIGVEGGFDLTEDKFEFDEDVKIVILP 126
+             VYLH+++TR+   ED        P KKPT LAIGV+GGFD  E   E++E   IVILP
+Sbjct: 62  NPVYLHIKQTRKSIPEDR-------PLKKPTLLAIGVDGGFDNNEP--EYEESYSIVILP 112
+
+Query: 127 DYLEI 131
+           D++ +
+Sbjct: 113 DFVSL 117
+
+
+>gi|24656476|ref|NP_647773.1| CG12082-PA [Drosophila melanogaster]
+ gi|7292313|gb|AAF47720.1| CG12082-PA [Drosophila melanogaster]
+ gi|21464442|gb|AAM52024.1| RE70722p [Drosophila melanogaster]
+          Length = 827
+
+ Score =  101 bits (251), Expect = 4e-21
+ Identities = 54/130 (41%), Positives = 80/130 (61%), Gaps = 10/130 (7%)
+
+Query: 7   EALLSVLPTIRVPKAGDR----VHKDECAFSFDTPESEGGLYICMNTFLGFGKQYVERHF 62
+           E L   L  + VP A       ++KDEC +S+D PE+  GLY+C+++FLGFG+ YV  + 
+Sbjct: 2   EELRKHLSKVNVPCASGAGSPPIYKDECVYSYDNPETPTGLYVCLHSFLGFGEAYVREYA 61
+
+Query: 63  NKTGQRVYLHLRRTRRPKE----EDTSAGTGDPPRKKPTRLAIGVEGGFDLTE--DKFEF 116
+           +KTG RV+LH++R +  KE    E   A +   P +K TRLAIGVEGG++ ++   K+E 
+Sbjct: 62  DKTGNRVFLHIQRVKTIKEGADMEAECAESEAGPERKITRLAIGVEGGYNESDMAKKYEI 121
+
+Query: 117 DEDVKIVILP 126
+            +   IV+ P
+Sbjct: 122 KDTYSIVVAP 131
+
+
+>gi|31239761|ref|XP_320294.1| ENSANGP00000009085 [Anopheles gambiae]
+ gi|21287981|gb|EAA00302.1| ENSANGP00000009085 [Anopheles gambiae str. PEST]
+          Length = 775
+
+ Score = 99.4 bits (246), Expect = 1e-20
+ Identities = 52/113 (46%), Positives = 75/113 (66%), Gaps = 4/113 (3%)
+
+Query: 19  PKAGDRVHKDECAFSFDTPESEGGLYICMNTFLGFGKQYVERHFNKTGQRVYLHLRRTRR 78
+           P A D V+K+EC +SFD PE++ GLY+ + +FLGFG+QYV  +  +TG RV+LHL+R + 
+Sbjct: 1   PCASDNVYKEECVYSFDNPETDTGLYVSLASFLGFGEQYVRPYAERTGNRVFLHLKRDKI 60
+
+Query: 79  PKEEDT---SAGTGDPPRKKPTRLAIGVEGGFDLTED-KFEFDEDVKIVILPD 127
+              + +    AG  D P KK TRLAIGVEGG+   E  K+E+ E  ++V+  +
+Sbjct: 61  EIPDPSAADGAGGADGPEKKITRLAIGVEGGYTGAESKKYEYQEHYQVVVFDE 113
+
+
+>gi|1718037|sp|P54201|UBPA_DICDI Ubiquitin carboxyl-terminal hydrolase A (Ubiquitin thiolesterase A)
+           (Ubiquitin-specific processing protease A)
+           (Deubiquitinating enzyme A)
+ gi|1203903|gb|AAC71068.1| UbpA [Dictyostelium discoideum]
+          Length = 837
+
+ Score = 88.2 bits (217), Expect = 3e-17
+ Identities = 47/127 (37%), Positives = 76/127 (59%), Gaps = 3/127 (2%)
+
+Query: 9   LLSVLPTIRVPKAGDRVHKDECAFSFDTPESEGGLYICMNTFLGFGKQYVERHFNKTGQR 68
+           L   L  I+VP    R+ KDEC + FDTPE+  GL+I +   L F K+YV+ +  KT   
+Sbjct: 3   LFPELKNIKVPTEKSRLWKDECCYCFDTPENGEGLFIDLIGLLAFSKKYVQLNHQKTHHH 62
+
+Query: 69  VYLHLRRTRRPKEEDTSAGTGDPPRKK-PTRLAIGVEGGFDLTEDKFEFDEDVKIVILPD 127
+           +YL+ ++     E+  S    +   +K P +LAIGVEGGF++ +++ +++E  K+ I PD
+Sbjct: 63  LYLNFKKVAIVNEKVKSPTIENGGEEKPPKKLAIGVEGGFNVEDEEIKYEEHYKLYIFPD 122
+
+Query: 128 --YLEIA 132
+             +LE++
+Sbjct: 123 DKFLELS 129
+
+
+>gi|43599044|gb|EAE54375.1| unknown [environmental sequence]
+          Length = 98
+
+ Score = 74.7 bits (182), Expect = 3e-13
+ Identities = 45/107 (42%), Positives = 62/107 (57%), Gaps = 20/107 (18%)
+
+Query: 4   LSEEALLSVLPTIRVPK-----AGDRVHKDECAFSFDTPESEGGLYICMNTFLGFGKQYV 58
+           +SEE+L  V   +R        A D+V+ DECAFSFDTP S  GLY+ + ++ GFGKQ+V
+Sbjct: 2   VSEESLNEVRSAMRAGNIRPVGAYDQVYNDECAFSFDTPYSPDGLYVSLKSYQGFGKQFV 61
+
+Query: 59  ERHFNKTGQRVYLHLRRTRR-----PKEEDTSAGTGDPPRKKPTRLA 100
+           +    +TG R+Y+HL+ T       PKEE+           KPT+LA
+Sbjct: 62  QLDHERTGNRLYVHLKWTHTLKPPPPKEEE----------GKPTKLA 98
+
+
+>gi|32399031|emb|CAD98271.1| ubiquitin-specific protease, probable [Cryptosporidium parvum]
+          Length = 921
+
+ Score = 62.0 bits (149), Expect = 3e-09
+ Identities = 41/127 (32%), Positives = 64/127 (50%), Gaps = 12/127 (9%)
+
+Query: 1   MAELSEEALLSVLPTIRVPKAGDRVHKDECAFSFDTPESEGGLYICMNTFLGFGKQYVER 60
+           M EL EE L  +   I   +  D V+K +C  SF    SEGGLY+ +  F  + + ++E 
+Sbjct: 1   MNELFEEYLKLIGSKI---ERKDPVYKAQCQLSFKDSFSEGGLYVNLKNFEAYSRDFLEW 57
+
+Query: 61  HFNKTGQRVYLHLRRTRRPKEEDTSAGTGDPPRKKPTRLAIGVEGGFDLTEDKFEFDEDV 120
+            ++++G R+YL ++ TR+   E+            PT L+IG EGG+   +  FE     
+Sbjct: 58  DYSQSGCRLYLSIKGTRKYHPENID---------NPTNLSIGKEGGYFPEKPFFEDLFQY 108
+
+Query: 121 KIVILPD 127
+            +V  PD
+Sbjct: 109 GLVSFPD 115
+
+
+>gi|39580982|emb|CAE72952.1| Hypothetical protein CBG20283 [Caenorhabditis briggsae]
+          Length = 790
+
+ Score = 59.3 bits (142), Expect = 2e-08
+ Identities = 34/111 (30%), Positives = 53/111 (47%), Gaps = 10/111 (9%)
+
+Query: 18  VPKAGDRVHKDECAFSFDTPESEGGLYICMNTFLGFGKQYVERHFNKTGQRVYLHLRRTR 77
+           VP    ++ K++CAF F  P    GLYI +  +  F KQ+   + N T   +++    T+
+Sbjct: 18  VPAPNQKIFKEQCAFCFKDPHGPDGLYINLRNYHAFCKQHAVIYANHTNYNLWVQFESTK 77
+
+Query: 78  RPKEEDTSAGTGDPPRKKPTRLAIGVEGGFDLTEDKFEFDEDVKIVILPDY 128
+              +E  S G    P  K T+L I         E K+EF++   +VI P+Y
+Sbjct: 78  VAVDEQRSDGE---PTTKMTKLTID-------AEPKYEFEDKYSVVIHPEY 118
+
+
+>gi|7508544|pir||T25921 hypothetical protein T27A3.2 - Caenorhabditis elegans
+          Length = 758
+
+ Score = 57.8 bits (138), Expect = 4e-08
+ Identities = 30/110 (27%), Positives = 55/110 (50%), Gaps = 11/110 (10%)
+
+Query: 19  PKAGDRVHKDECAFSFDTPESEGGLYICMNTFLGFGKQYVERHFNKTGQRVYLHLRRTRR 78
+           P    ++ KD+CA+ F  P  + GLYI +  +  F +++ E +   +G  +++    T++
+Sbjct: 19  PTFDQKIFKDQCAYCFKDPHGKDGLYISLKNYHAFCREHAEIYGTTSGNTLFVQFESTKK 78
+
+Query: 79  PKEEDTSAGTGDPPRKKPTRLAIGVEGGFDLTEDKFEFDEDVKIVILPDY 128
+             EE T       P  K T+L I        ++ KFEF++   +V+ P+Y
+Sbjct: 79  IIEERTDG----EPTSKMTKLTID-------SDPKFEFEDKYCVVVHPEY 117
+
+
+>gi|25144248|ref|NP_491765.2| ubiquitin specific protease (88.8 kD) (1G689) [Caenorhabditis
+           elegans]
+ gi|20451257|gb|AAB42297.2| Hypothetical protein T27A3.2 [Caenorhabditis elegans]
+          Length = 789
+
+ Score = 57.8 bits (138), Expect = 4e-08
+ Identities = 30/110 (27%), Positives = 55/110 (50%), Gaps = 11/110 (10%)
+
+Query: 19  PKAGDRVHKDECAFSFDTPESEGGLYICMNTFLGFGKQYVERHFNKTGQRVYLHLRRTRR 78
+           P    ++ KD+CA+ F  P  + GLYI +  +  F +++ E +   +G  +++    T++
+Sbjct: 19  PTFDQKIFKDQCAYCFKDPHGKDGLYISLKNYHAFCREHAEIYGTTSGNTLFVQFESTKK 78
+
+Query: 79  PKEEDTSAGTGDPPRKKPTRLAIGVEGGFDLTEDKFEFDEDVKIVILPDY 128
+             EE T       P  K T+L I        ++ KFEF++   +V+ P+Y
+Sbjct: 79  IIEERTDG----EPTSKMTKLTID-------SDPKFEFEDKYCVVVHPEY 117
+
+
+>gi|43345616|gb|EAD37935.1| unknown [environmental sequence]
+          Length = 267
+
+ Score = 57.0 bits (136), Expect = 7e-08
+ Identities = 30/92 (32%), Positives = 49/92 (53%), Gaps = 2/92 (2%)
+
+Query: 42  GLYICMNTFLGFGKQYVERHFNKTGQRVYLHLRRTRRPKEEDTSAGTGDPPRKKPTRLAI 101
+           G+Y+   T  G+G++YV     +TG   Y+ +R TR PK+   + G      + PT L  
+Sbjct: 8   GVYVNAETLYGYGRRYVALDNARTGCETYVCVRTTRTPKKR--ANGEDGAANETPTTLGF 65
+
+Query: 102 GVEGGFDLTEDKFEFDEDVKIVILPDYLEIAR 133
+           GV+GGF   EDK++      +V   D+ +++R
+Sbjct: 66  GVDGGFASEEDKYDVHTTYSLVFASDFDDVSR 97
+
+
+>gi|42547076|gb|EAA69919.1| hypothetical protein FG02640.1 [Gibberella zeae PH-1]
+          Length = 774
+
+ Score = 41.2 bits (95), Expect = 0.004
+ Identities = 30/100 (30%), Positives = 52/100 (52%), Gaps = 14/100 (14%)
+
+Query: 19  PKAGDRVHKDECAFSFDTPESEGGLYICMNTFLG--FGKQYVER-HFNKTGQRVYLHLRR 75
+           P     V++++C   FD+ +   GL +C+  F G   G++  +R H+  T   + L++RR
+Sbjct: 14  PDPSQSVYREDCTQCFDSIDDPDGLDVCLQCFNGGCAGERNHDRLHYALTQHPLALNIRR 73
+
+Query: 76  TRRPKEEDTSAGTGDPPRKKPTRLAIGVEGGFDLTEDKFE 115
+           TR+  E D      +PP K  ++LAI  E      ED+++
+Sbjct: 74  TRKVVERD------EPPAKM-SKLAIAAE----TEEDRYD 102
+
+
+>gi|32410303|ref|XP_325632.1| hypothetical protein [Neurospora crassa]
+ gi|28921496|gb|EAA30801.1| hypothetical protein [Neurospora crassa]
+          Length = 788
+
+ Score = 40.0 bits (92), Expect = 0.010
+ Identities = 25/89 (28%), Positives = 44/89 (49%), Gaps = 10/89 (11%)
+
+Query: 19  PKAGDRVHKDECAFSFDTPESEGGLYICMNTFLG---FGKQYVERHFNKTGQRVYLHLRR 75
+           P   D V++++C   FD+ +   GL +C+  F G     + + + H       + L++RR
+Sbjct: 14  PSPTDNVYREDCTQCFDSIDDPAGLDVCLKCFNGGCAGDRNHAKLHATSRNHPLVLNIRR 73
+
+Query: 76  TRRPKEEDTSAGTGDPPRKKPTRLAIGVE 104
+           TR+  E +      +PP K  ++LAI  E
+Sbjct: 74  TRKIIERN------EPPLKM-SKLAIAAE 95
+
+
+>gi|29251340|gb|EAA42822.1| GLP_574_53018_55165 [Giardia lamblia ATCC 50803]
+          Length = 715
+
+ Score = 39.7 bits (91), Expect = 0.014
+ Identities = 22/62 (35%), Positives = 31/62 (50%)
+
+Query: 25 VHKDECAFSFDTPESEGGLYICMNTFLGFGKQYVERHFNKTGQRVYLHLRRTRRPKEEDT 84
+          V   ECA+ F    +  GLY+CM+        +V  H  KTG   YLH+  T + KE + 
+Sbjct: 9  VASTECAYCFLNRYNSQGLYLCMHCNFCACLDHVNIHQEKTGHVHYLHILYTLKNKEGNI 68
+
+Query: 85 SA 86
+          +A
+Sbjct: 69 TA 70
+
+
+>gi|38111782|gb|EAA57301.1| hypothetical protein MG08270.4 [Magnaporthe grisea 70-15]
+          Length = 787
+
+ Score = 39.3 bits (90), Expect = 0.016
+ Identities = 29/110 (26%), Positives = 55/110 (50%), Gaps = 14/110 (12%)
+
+Query: 15  TIRVPKAGDRVHKDECAFSFDTPESEGGLYICMNTFLG--FGKQY-VERHFNKTGQRVYL 71
+           +++ P     V++++C   FD+ +   GL +C+  F G   G++Y  + H       + L
+Sbjct: 10  SLQPPTPAQSVYREDCTQCFDSIDGPDGLDVCLQCFNGGCVGERYHAKLHHLIWSHPLVL 69
+
+Query: 72  HLRRTRRPKEEDTSAGTGDPPRKKPTRLAIGVEGGFDLTEDKFEFDEDVK 121
+           ++RRTR+  + D      +PP K  ++LAI  E       D++++   VK
+Sbjct: 70  NVRRTRKHIDRD------EPPMKM-SKLAIAAE----TEADRYDYHTKVK 108
+
+
+>gi|43219884|gb|EAC75503.1| unknown [environmental sequence]
+          Length = 242
+
+ Score = 38.9 bits (89), Expect = 0.021
+ Identities = 20/53 (37%), Positives = 32/53 (60%), Gaps = 7/53 (13%)
+
+Query: 75  RTRRPKEEDTSAGTGDPPRKKPTRLAIGVEGGFDLTED-KFEFDEDVKIVILP 126
+           RTR+P  E+T           PTR+AIGVEGGF++ +D  ++  +   +V++P
+Sbjct: 2   RTRKPASEETRDAN------HPTRMAIGVEGGFNVDDDADYDITKTNALVVMP 48
+
+
+>gi|1902995|dbj|BAA12032.1| unnamed protein product [Schizosaccharomyces pombe]
+          Length = 386
+
+ Score = 38.5 bits (88), Expect = 0.027
+ Identities = 25/98 (25%), Positives = 50/98 (51%), Gaps = 11/98 (11%)
+
+Query: 16  IRVPKAGDRVHKDECAFSFDTPESEGGLYICMNTFL-GFGKQYVER---HFNKTGQRVYL 71
+           + +P     ++++EC   F++ + EGG+ +C+  F  G G+  ++    HF +T   + +
+Sbjct: 11  VVIPDNSQVIYREECVRCFNSQDEEGGIDLCLTCFQSGCGETGLKHSLVHFEQTLHPIVV 70
+
+Query: 72  HLRRTRRPKEEDTSAGTGDPPRKKPTRLAIGVEGGFDL 109
+            +   R+PK++       D P +K T+L I  +   DL
+Sbjct: 71  TI--ARQPKQK-----INDEPPQKITKLEIREDSDEDL 101
+
+
+>gi|19112877|ref|NP_596085.1| ubiquitin carboxyl-terminal hydrolase [Schizosaccharomyces pombe]
+ gi|24638302|sp|Q11119|UBPE_SCHPO Probable ubiquitin carboxyl-terminal hydrolase 14 (Ubiquitin
+           thiolesterase 14) (Ubiquitin-specific processing
+           protease 14) (Deubiquitinating enzyme 14)
+ gi|7493557|pir||T40647 ubiquitin carboxyl-terminal hydrolase - fission yeast
+           (Schizosaccharomyces pombe)
+ gi|2894281|emb|CAA17049.1| ubiquitin C-terminal hydrolase activity; UBA domain;
+           ubiquitin-binding protein (implicated) (PMID 1158427);
+           involved in protein deubiquitination; zinc finger
+           protein; zf-UBP type; similar to S. cerevisiae YBR058C
+           [Schizosaccharomyces pombe]
+          Length = 775
+
+ Score = 37.7 bits (86), Expect = 0.046
+ Identities = 25/98 (25%), Positives = 50/98 (51%), Gaps = 11/98 (11%)
+
+Query: 16  IRVPKAGDRVHKDECAFSFDTPESEGGLYICMNTFL-GFGKQYVER---HFNKTGQRVYL 71
+           + +P     ++++EC   F++ + EGG+ +C+  F  G G+  ++    HF +T   + +
+Sbjct: 11  VVIPDNSQVIYREECVRCFNSQDEEGGIDLCLTCFQSGCGETGLKHSLVHFEQTLHPIVV 70
+
+Query: 72  HLRRTRRPKEEDTSAGTGDPPRKKPTRLAIGVEGGFDL 109
+            +   R+PK++       D P +K T+L I  +   DL
+Sbjct: 71  TI--ARQPKQK-----INDEPPQKITKLEIREDSDEDL 101
+
+
+>gi|45201118|ref|NP_986688.1| AGR023Cp [Eremothecium gossypii]
+ gi|44985901|gb|AAS54512.1| AGR023Cp [Eremothecium gossypii]
+          Length = 780
+
+ Score = 35.4 bits (80), Expect = 0.24
+ Identities = 21/94 (22%), Positives = 42/94 (44%), Gaps = 20/94 (21%)
+
+Query: 9  LLSVLPTIRVPKAGDRVHKDECAFSFDT-----------PESEGGLYICMNTFLGFGKQY 57
+          +  V+  +++P     ++KD+C + F+T            E E  L IC+  F  F  ++
+Sbjct: 1  MCEVVKQLKIPST---IYKDDCGYCFETMINPNFGDGGPAEPEHQLNICLGCFQSFCHEH 57
+
+Query: 58 VERH------FNKTGQRVYLHLRRTRRPKEEDTS 85
+          V  H        +    +YL++ +  RPK  +++
+Sbjct: 58 VNLHQQVVRRVQQATHDLYLNVYKIERPKATESA 91
+
+
+>gi|586499|sp|P38237|UBPE_YEAST Ubiquitin carboxyl-terminal hydrolase 14 (Ubiquitin thiolesterase
+           14) (Ubiquitin-specific processing protease 14)
+           (Deubiquitinating enzyme 14)
+ gi|626503|pir||S45916 hypothetical protein YBR058c - yeast (Saccharomyces cerevisiae)
+ gi|536297|emb|CAA85001.1| UBP14 [Saccharomyces cerevisiae]
+ gi|559955|emb|CAA86402.1| putative protein [Saccharomyces cerevisiae]
+          Length = 803
+
+ Score = 34.7 bits (78), Expect = 0.37
+ Identities = 26/95 (27%), Positives = 42/95 (44%), Gaps = 22/95 (23%)
+
+Query: 2   AELSEEALLSVLPTIRVPKAGDRVHKDECAFSFDTPESE---------GGLYICMNTFLG 52
+           +E++E    +VL  + VP     V KDEC + F++P +E           L IC+N F  
+Sbjct: 21  SEMAE----AVLENVNVPAV---VSKDECIYCFESPYNEPLALNASPKHSLNICLNCFQA 73
+
+Query: 53  FGKQYVERHFNKTG------QRVYLHLRRTRRPKE 81
+              ++V  H   T          YL + +  +PK+
+Sbjct: 74  TCNRHVPLHIRVTEYACDTIHSNYLTIAKVEKPKQ 108
+
+
+>gi|37362616|ref|NP_009614.2| Functional homolog of mammalian isopeptidase T; may facilitate
+          proteolysis by preventing unanchored ubiquitin chains
+          from competitively inhibiting polyubiquitin-substrate
+          binding to the 26S proteasome; Ubp14p [Saccharomyces
+          cerevisiae]
+          Length = 781
+
+ Score = 34.7 bits (78), Expect = 0.37
+ Identities = 24/86 (27%), Positives = 37/86 (43%), Gaps = 18/86 (20%)
+
+Query: 11 SVLPTIRVPKAGDRVHKDECAFSFDTPESE---------GGLYICMNTFLGFGKQYVERH 61
+          +VL  + VP     V KDEC + F++P +E           L IC+N F     ++V  H
+Sbjct: 4  AVLENVNVPAV---VSKDECIYCFESPYNEPLALNASPKHSLNICLNCFQATCNRHVPLH 60
+
+Query: 62 FNKTG------QRVYLHLRRTRRPKE 81
+             T          YL + +  +PK+
+Sbjct: 61 IRVTEYACDTIHSNYLTIAKVEKPKQ 86
+
+
+>gi|18141287|gb|AAL60581.1| senescence-associated cysteine protease [Brassica oleracea]
+          Length = 368
+
+ Score = 34.7 bits (78), Expect = 0.45
+ Identities = 25/66 (37%), Positives = 34/66 (51%), Gaps = 6/66 (9%)
+
+Query: 53  FGKQYVERHFNKTGQRVYL-HLRRTRRPKEEDTSAGTG-----DPPRKKPTRLAIGVEGG 106
+           FGK Y  R  +     V+  +LRR RR ++ D SA  G     D  R +  R  +GV+GG
+Sbjct: 58  FGKVYASREEHDYRFSVFKSNLRRARRHQKLDPSARHGVTQFSDLTRSEFKRKHLGVKGG 117
+
+Query: 107 FDLTED 112
+           F L +D
+Sbjct: 118 FKLPKD 123
+
+
+>gi|38076669|ref|XP_356759.1| similar to Rpl7a protein [Mus musculus]
+          Length = 252
+
+ Score = 33.1 bits (74), Expect = 1.2
+ Identities = 22/56 (39%), Positives = 27/56 (48%), Gaps = 2/56 (3%)
+
+Query: 60  RHFNKTGQRVYLHLRRTRRPK--EEDTSAGTGDPPRKKPTRLAIGVEGGFDLTEDK 113
+           R+     QR  L+ R   R K  EE  +AG GD P K+P  L  GV     L E+K
+Sbjct: 81  RYIRLQRQRAILYKRLKARDKAREEAKAAGKGDVPTKRPPVLRAGVNTITTLVENK 136
+
+
+>gi|23510123|ref|NP_702789.1| ubiquitin carboxyl-terminal hydrolase a, putative [Plasmodium
+           falciparum 3D7]
+ gi|23498205|emb|CAD49176.1| ubiquitin carboxyl-terminal hydrolase a, putative [Plasmodium
+           falciparum 3D7]
+          Length = 853
+
+ Score = 31.6 bits (70), Expect = 3.8
+ Identities = 29/128 (22%), Positives = 66/128 (51%), Gaps = 23/128 (17%)
+
+Query: 1   MAELSEEALLSVLPTI--RVPKAGDRVHKDECAFSFDTPESEGGLYICMNTFLGFGKQYV 58
+           MA++  ++++S++ TI    P   + ++  EC+ +      E G++I + +F  F  +++
+Sbjct: 1   MADI--KSIISLISTIVKDEPTKEEVIYLGECSITGHKDFFEDGIFIDLLSFESFSLKFL 58
+
+Query: 59  ERHFNKTGQ--------RVYLHLRRTRRPKEEDTSAGTGDPPRKKPTRLAIGVEGGFDLT 110
+           + ++N+  +        R YL++++ +   E        +  +K  T L I  EGGF+  
+Sbjct: 59  KCNYNRLSKLSSEGKNHRFYLNIKKKKNLLE--------NIEKKVITNLNINAEGGFN-- 108
+
+Query: 111 EDK-FEFD 117
+           E+K +E++
+Sbjct: 109 ENKVYEYE 116
+
+
+>gi|34539975|ref|NP_904454.1| hypothetical protein PG0109 [Porphyromonas gingivalis W83]
+ gi|34396286|gb|AAQ65353.1| hypothetical protein PG0109 [Porphyromonas gingivalis W83]
+          Length = 407
+
+ Score = 31.6 bits (70), Expect = 3.9
+ Identities = 18/35 (51%), Positives = 21/35 (60%), Gaps = 4/35 (11%)
+
+Query: 39  SEGGLYICMNTFLGFG-KQYVERHFNKTGQRVYLH 72
+           SEG +Y      LG G  Q VER+F KTG RV+ H
+Sbjct: 293 SEGNIY---EFLLGQGYTQVVERNFQKTGMRVFSH 324
+
+
+>gi|29831113|ref|NP_825747.1| hypothetical protein [Streptomyces avermitilis MA-4680]
+ gi|29608227|dbj|BAC72282.1| hypothetical protein [Streptomyces avermitilis MA-4680]
+          Length = 434
+
+ Score = 31.2 bits (69), Expect = 4.1
+ Identities = 12/25 (48%), Positives = 15/25 (60%)
+
+Query: 73  LRRTRRPKEEDTSAGTGDPPRKKPT 97
+           LR  RRP+ E+     G PPR +PT
+Sbjct: 206 LRNLRRPRTEEEEYEPGSPPRAEPT 230
+
+
+>gi|19224135|gb|AAL86406.1| Cpa [Streptococcus pyogenes]
+          Length = 756
+
+ Score = 31.2 bits (69), Expect = 4.5
+ Identities = 17/48 (35%), Positives = 23/48 (47%)
+
+Query: 44  YICMNTFLGFGKQYVERHFNKTGQRVYLHLRRTRRPKEEDTSAGTGDP 91
+           YI   TF  +GK Y  ++ +K+ Q VY        P E +   GT DP
+Sbjct: 395 YINPETFTPYGKFYYAKNKDKSSQVVYCFNADLHSPPESEDGGGTIDP 442
+
+
+>gi|32493399|gb|AAH54536.1| Adam11 protein [Mus musculus]
+          Length = 778
+
+ Score = 30.8 bits (68), Expect = 5.1
+ Identities = 18/50 (36%), Positives = 25/50 (50%), Gaps = 1/50 (2%)
+
+Query: 19  PKAGDRVHKDECAFSFDTPESEGGLYICMNTFLGFGKQYVERHFNKTGQR 68
+           P  G  VH  + +F     +S   L + +N  L    QYVERHF++ G R
+Sbjct: 79  PPRGTPVHLAQVSFVIPAFDSNFTLDLELNHHL-LSSQYVERHFSREGTR 127
+
+
+>gi|34880697|ref|XP_346320.1| similar to 60S ribosomal protein L7a (Surfeit locus protein 3)
+           (PLA-X polypeptide) [Rattus norvegicus]
+          Length = 265
+
+ Score = 30.8 bits (68), Expect = 5.3
+ Identities = 15/34 (44%), Positives = 19/34 (55%)
+
+Query: 80  KEEDTSAGTGDPPRKKPTRLAIGVEGGFDLTEDK 113
+           + E T+AG GD P K+P  L  GV     L E+K
+Sbjct: 157 RAEKTAAGKGDVPTKRPPVLQAGVNAVTTLVENK 190
+
+
+>gi|6752960|ref|NP_033743.1| a disintegrin and metalloprotease domain 11; a disintegrin and
+           metalloprotease domain (ADAM) 11 [Mus musculus]
+ gi|14194446|sp|Q9R1V4|AD11_MOUSE ADAM 11 precursor (A disintegrin and metalloproteinase domain 11)
+           (Metalloproteinase-like, disintegrin-like, and
+           cysteine-rich protein) (MDC)
+ gi|5736634|dbj|BAA83384.1| ADAM11 [Mus musculus]
+          Length = 773
+
+ Score = 30.8 bits (68), Expect = 5.4
+ Identities = 18/50 (36%), Positives = 25/50 (50%), Gaps = 1/50 (2%)
+
+Query: 19  PKAGDRVHKDECAFSFDTPESEGGLYICMNTFLGFGKQYVERHFNKTGQR 68
+           P  G  VH  + +F     +S   L + +N  L    QYVERHF++ G R
+Sbjct: 79  PPRGTPVHLAQVSFVIPAFDSNFTLDLELNHHL-LSSQYVERHFSREGTR 127
+
+
+>gi|43951048|gb|EAG31392.1| unknown [environmental sequence]
+          Length = 273
+
+ Score = 30.8 bits (68), Expect = 5.5
+ Identities = 22/71 (30%), Positives = 32/71 (45%), Gaps = 5/71 (7%)
+
+Query: 56  QYVERHFNKTGQRVYLHLRRTRRPKEEDTSAGTGDPPRK-----KPTRLAIGVEGGFDLT 110
+           +Y E     T +R+ L +       E++ S   G P  +     KPT+ AIG    +DLT
+Sbjct: 29  KYSEIRVTTTPRRIALIIEGIAPFSEDNVSERKGPPVSQAFDDGKPTKAAIGFAERYDLT 88
+
+Query: 111 EDKFEFDEDVK 121
+            +K E  E  K
+Sbjct: 89  PEKLEIRETSK 99
+
+
+>gi|34932126|ref|XP_225910.2| similar to Rpl7a protein [Rattus norvegicus]
+          Length = 441
+
+ Score = 30.8 bits (68), Expect = 6.0
+ Identities = 14/34 (41%), Positives = 19/34 (55%)
+
+Query: 80  KEEDTSAGTGDPPRKKPTRLAIGVEGGFDLTEDK 113
+           + E  +AG GD P K+P+ L  GV  G    E+K
+Sbjct: 292 RAEKKAAGKGDVPTKRPSVLRAGVNTGTTFVENK 325
+
+
+  Database: All non-redundant GenBank CDS
+  translations+PDB+SwissProt+PIR+PRF
+    Posted date:  Mar 7, 2004  3:13 AM
+  Number of letters in database: 748,045,263
+  Number of sequences in database:  2,677,049
+  
+Lambda     K      H
+   0.319    0.141    0.414 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Hits to DB: 44,757,766
+Number of Sequences: 2677049
+Number of extensions: 1978454
+Number of successful extensions: 3566
+Number of sequences better than 10.0: 11
+Number of HSP's better than 10.0 without gapping: 7
+Number of HSP's successfully gapped in prelim test: 4
+Number of HSP's that attempted gapping in prelim test: 3554
+Number of HSP's gapped (non-prelim): 11
+length of query: 135
+length of database: 748,045,263
+effective HSP length: 111
+effective length of query: 24
+effective length of database: 450,892,824
+effective search space: 10821427776
+effective search space used: 10821427776
+T: 11
+A: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.7 bits)
+S2: 66 (30.0 bits)
+
+

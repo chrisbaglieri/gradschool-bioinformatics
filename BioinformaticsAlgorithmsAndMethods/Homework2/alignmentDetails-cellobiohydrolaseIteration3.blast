@@ -1,0 +1,53 @@
+GI Header	Length	Score	Expected Value	Identity Percentage	Positives Percentage	Gaps Percentage
+gi|1170141|sp|P46238|GUXC_FUSOX Putative exoglucanase type C precursor (Exocellobiohydrolase I)	514	800	0.0	84	91	0
+gi|729649|sp|P38676|GUX1_NEUCR Exoglucanase 1 precursor (Exocellobiohydrolase 1)	516	781	0.0	57	66	4
+gi|3913806|sp|Q92400|GUX2_AGABI Exoglucanase precursor (Exocellobiohydrolase)	506	775	0.0	55	68	3
+gi|1346226|sp|P15828|GUX1_HUMGT Exoglucanase I precursor (Exocellobiohydrolase I)	525	773	0.0	63	75	3
+gi|121854|sp|P19355|GUX1_TRIVI Exoglucanase I precursor (Exocellobiohydrolase)	513	749	0.0	57	68	2
+gi|121852|sp|P13860|GUX1_PHACH Exoglucanase I precursor (Exocellobiohydrolase I)	516	742	0.0	53	65	6
+gi|121853|sp|P00725|GUX1_TRIRE Exoglucanase I precursor (Exocellobiohydrolase I) (CBHI)	513	737	0.0	56	68	2
+gi|729650|sp|Q06886|GUX1_PENJA Exoglucanase I precursor (Exocellobiohydrolase I)	537	719	0.0	54	64	5
+gi|3913798|sp|O59843|GUX1_ASPAC Exoglucanase I precursor (Exocellobiohydrolase I)	540	718	0.0	53	65	5
+gi|3913803|sp|Q00548|GUX1_CRYPA EXOGLUCANASE I PRECURSOR (EXOCELLOBIOHYDROLASE I)	452	699	0.0	57	69	1
+gi|3913802|sp|Q00328|GUX1_COCCA EXOGLUCANASE I PRECURSOR (EXOCELLOBIOHYDROLASE I)	456	697	0.0	60	70	2
+gi|1170138|sp|P46237|GUNC_FUSOX Endoglucanase type C precursor (Endo-1,4-beta-glucanase)	429	586	e-167	35	46	9
+gi|2833230|sp|Q12622|GUN1_HUMGT Endoglucanase EG-1 precursor (Endo-1,4-beta-glucanase) (Cellulase)	435	576	e-164	35	49	10
+gi|6016178|sp|P56680|GUN1_HUMIN Endoglucanase I (Endo-1,4-beta-glucanase) (Cellulase)	402	563	e-160	35	49	10
+gi|121788|sp|P07981|GUN1_TRIRE Endoglucanase EG-1 precursor (Endo-1,4-beta-glucanase) (Cellulase)	459	524	e-148	35	48	15
+gi|2833231|sp|Q12714|GUN1_TRILO Endoglucanase EG-1 precursor (Endo-1,4-beta-glucanase) (Cellulase)	463	520	e-147	35	48	16
+gi|21263647|sp|O14405|GUN4_TRIRE Endoglucanase IV precursor (Endo-1,4-beta-glucanase IV) (Cellulase	344	344	1e-16	39	56	56
+gi|1170140|sp|P45699|GUNK_FUSOX Putative endoglucanase type K precursor (Endo-1,4-beta-glucanase)	376	376	1e-13	28	39	4
+gi|1346227|sp|P49075|GUX3_AGABI Exoglucanase 3 precursor (Exocellobiohydrolase 3)	438	438	1e-13	61	69	69
+gi|1170139|sp|P46239|GUNF_FUSOX Putative endoglucanase type F precursor (Endo-1,4-beta-glucanase)	385	385	9e-13	48	61	61
+gi|25090320|sp|Q9HE18|FAEB_PENFN Feruloyl esterase B precursor (Ferulic acid esterase B) (FAEB)	353	353	9e-13	61	69	69
+gi|13959390|sp|Q12624|GUN3_HUMIN Endoglucanase 3 precursor (Endo-1,4-beta-glucanase 3) (Cellulase 3)	388	388	9e-12	50	61	61
+gi|1170137|sp|P46236|GUNB_FUSOX Putative endoglucanase type B precursor (Endo-1,4-beta-glucanase)	462	462	1e-11	55	63	63
+gi|121855|sp|P07987|GUX2_TRIRE Exoglucanase II precursor (Exocellobiohydrolase II) (CBHII)	471	471	1e-11	68	75	75
+gi|121794|sp|P07982|GUN2_TRIRE Endoglucanase EG-II precursor (Endo-1,4-beta-glucanase) (Cellulase)	418	418	6e-11	47	58	58
+gi|1170136|sp|P43317|GUN5_TRIRE Endoglucanase V precursor (Endo-1,4-beta-glucanase V) (Cellulase V)	242	242	3e-10	47	65	65
+gi|1709845|sp|P50272|PSBP_PORPU Putative polysaccharide binding protein precursor	210	210	0.002	29	44	5
+gi|2494341|sp|Q00023|CEL1_AGABI Cellulose-growth-specific protein precursor	320	320	0.006	56	75	75
+gi|6686029|sp|O70157|TP3A_MOUSE DNA topoisomerase III alpha	1003	1003	0.049	22	32	18
+gi|730151|sp|P38681|NIR_NEUCR Nitrite reductase [NAD(P)H]	1176	1176	0.29	22	36	2
+gi|1170674|sp|P29376|KLTK_HUMAN Leukocyte tyrosine kinase receptor precursor (Protein tyrosine	864	864	0.34	22	31	31
+gi|20141769|sp|P54734|PKNA_ANASP Serine/threonine-protein kinase pknA	564	564	0.54	11	29	5
+gi|3182913|sp|O13415|AREA_ASPOR Nitrogen regulatory protein areA	866	866	0.82	26	43	11
+gi|2494688|sp|Q92269|NRFA_PENUR Nitrogen regulatory protein NRFA	865	865	1.5	22	37	37
+gi|547891|sp|P36225|MAP4_BOVIN Microtubule-associated protein 4 (MAP 4) (Microtubule-associated	1072	1072	1.5	25	36	4
+gi|5902804|sp|O13508|AREA_PENRO Nitrogen regulatory protein areA (Nitrogen regulator nmc)	860	860	1.7	22	37	37
+gi|1351145|sp|P47534|SYA_MYCGE Alanyl-tRNA synthetase (Alanine--tRNA ligase) (AlaRS)	900	900	2.7	30	45	45
+gi|114337|sp|P28876|PMA2_SCHPO Plasma membrane ATPase 2 (Proton pump 2)	1010	1010	3.0	21	39	4
+gi|2500958|sp|P75368|SYA_MYCPN Alanyl-tRNA synthetase (Alanine--tRNA ligase) (AlaRS)	900	900	3.1	30	45	45
+gi|20455500|sp|P27816|MAP4_HUMAN Microtubule-associated protein 4 (MAP 4)	1152	1152	3.3	22	37	4
+gi|18275651|sp|Q09784|YA95_SCHPO Hypothetical protein C13G6.05c in chromosome I	245	245	3.4	24	40	3
+gi|20455241|sp|Q9Y572|RIK3_HUMAN Receptor-interacting serine/threonine protein kinase 3 (RIP-like	518	518	3.8	19	33	33
+gi|3182912|sp|O13412|AREA_ASPNG Nitrogen regulatory protein areA	882	882	4.1	28	43	13
+gi|116822|sp|P05070|COAT_TRVCA COAT PROTEIN (CAPSID PROTEIN)	223	223	4.2	17	37	37
+gi|127855|sp|P16170|NCA1_XENLA Neural cell adhesion molecule 1, 180 kDa isoform precursor (N-CAM	1088	1088	5.7	15	27	21
+gi|6093725|sp|Q11053|PKNH_MYCTU Probable serine/threonine-protein kinase pknH	626	626	5.8	15	28	15
+gi|548384|sp|P35658|N214_HUMAN Nuclear pore complex protein Nup214 (Nucleoporin Nup214) (214 kDa	2090	2090	6.0	19	33	16
+gi|34098708|sp|Q9F1V8|YGLK_STRGR Hypothetical 47.6 kDa protein in glk 3'region	437	437	6.2	20	27	14
+gi|13632519|sp|O70167|PK3G_MOUSE Phosphatidylinositol-4-phosphate 3-kinase C2 domain-containing	1506	1506	6.5	26	42	1
+gi|14195489|sp|Q9Z7Y1|Y572_CHLPN Protein CPn0572/CP0177/CPj0572/CpB0594	755	755	6.6	20	32	12
+gi|24212076|sp|Q9JKS6|PCLO_RAT Piccolo protein (Multidomain presynaptic cytomatrix protein)	5085	5085	7.0	21	26	12
+gi|32172454|sp|Q24270|CCAD_DROME Voltage-dependent calcium channel type D alpha-1 subunit (DmCA1D)	2516	2516	9.9	16	32	11

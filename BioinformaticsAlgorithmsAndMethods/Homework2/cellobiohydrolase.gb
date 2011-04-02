@@ -1,0 +1,78 @@
+LOCUS       AY196784                1963 bp    mRNA    linear   PLN 31-DEC-2003
+DEFINITION  Gibberella zeae isolate F9 cellobiohydrolase C mRNA, complete cds.
+ACCESSION   AY196784
+VERSION     AY196784.1  GI:37781376
+KEYWORDS    .
+SOURCE      Gibberella zeae
+  ORGANISM  Gibberella zeae
+            Eukaryota; Fungi; Ascomycota; Pezizomycotina; Sordariomycetes;
+            Hypocreomycetidae; Hypocreales; Nectriaceae; Gibberella.
+REFERENCE   1  (bases 1 to 1963)
+  AUTHORS   Hatsch,D., Phalip,V. and Jeltsch,J.M.
+  TITLE     The cellobiohydrolase C gene of Fusarium graminearum
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1963)
+  AUTHORS   Hatsch,D., Phalip,V. and Jeltsch,J.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-DEC-2002) Laboratoire de Phytopathologie, UMR 7100 -
+            IFR 85 - ESBS -ULP, Boulevard Sebastien Brant,
+            Illkirch-Graffenstaden, Alsace 67400, France
+FEATURES             Location/Qualifiers
+     source          1..1963
+                     /organism="Gibberella zeae"
+                     /mol_type="mRNA"
+                     /isolate="F9"
+                     /db_xref="taxon:5518"
+     CDS             165..1703
+                     /note="C family cellulase; CBH-C; similar to Fusarium
+                     oxysporum GuxC: SwissProt Accession Number P46238"
+                     /codon_start=1
+                     /product="cellobiohydrolase C"
+                     /protein_id="AAO42612.1"
+                     /db_xref="GI:37781377"
+                     /translation="MYRAIATASALIAAVRAQQVCSLTQESKSSLNWSKCTSSGCSNV
+                     KGSVTIDANWRWTHQVSGSTNCYTGSKWDTSVCTSGKVCAEKCCLDGADYASTYGITS
+                     SGDQLSLSFVTKGPYSTNIGSRTYPMEDENTYQMFQLLGNEFTFDVDVSNIGCGLNGA
+                     LYFVSMDADGGKAKYPGNKAGAKYGTGYCDAQCPRDVKFINGQANSDGWQPSDSDVNG
+                     GIGNLGTCCPEMDIWEANSISTAYTPHPCTKLTQHSCTGDSCGGTYSNDRYGGTCDAD
+                     GCDFNSYRQGNKTFYGPGSGFNVDTTKKVTVVTQFHKGSNGRLSEIARLYVQNGKVIA
+                     NSESKIAGVPGNSLTADFCTKQKKVFNDPDDFTKKGAWSGMSDALEAPMVLVMSLWHD
+                     HHSNMLWLDSTYPTDSTKLGSQRGSCSTSSGVPADLEKNVPNSKVAFSNIKFGPIGST
+                     YKSDGTTPTNPTNPSEPSNTANPNPGTVDQWGQCGGSNYSGPTACKSGFTCKKINDFY
+                     SQCQ"
+ORIGIN      
+        1 gaagggtgaa acgaagatct tggtagtccc tgatcgtttc gtctgtgtcc acaatccaag
+       61 tatataacga gcttgaatcc ccagactgga tcaacttcac ctcactcctc atcacacctt
+      121 cttcagtaca ctcatctatc taccggttca gctttttgtt cacaatgtat cgcgccatcg
+      181 ccaccgcctc ggcgctcatc gcagccgttc gggctcagca agtgtgctct ctcacacagg
+      241 agagcaagtc ctccctgaac tggtccaagt gtacatccag cggatgcagc aacgtcaagg
+      301 gatccgtcac catcgatgcc aactggcgat ggactcacca agtatccgga tctaccaact
+      361 gctacaccgg cagcaagtgg gacacttccg tctgcaccag cggaaaggtc tgtgctgaga
+      421 agtgctgtct cgacggcgcc gactacgcca gcacctacgg tatcacctcc agcggcgacc
+      481 agctcagcct ctcgttcgtc accaagggac cctacagcac caacatcggt agccgtactt
+      541 accccatgga ggacgagaac acctaccaga tgttccagct cctgggtaac gagttcacct
+      601 ttgatgtcga tgtttcaaac attggatgtg gtctgaacgg tgctctttac ttcgtcagca
+      661 tggacgccga tggtggcaag gccaagtacc ccggtaacaa ggccggagcc aagtacggta
+      721 ctggttactg tgatgcccag tgccctcgtg acgttaagtt catcaacggc caggccaact
+      781 ctgatggctg gcagccctcc gacagcgatg tcaacggtgg tattggtaac ttgggcacat
+      841 gctgccctga gatggacatc tgggaggcca actccatctc cactgcctac actcctcacc
+      901 cttgcactaa gctcactcag cactcttgca ctggcgactc ttgcggtgga acctactcca
+      961 acgaccgtta cggcggaact tgcgatgctg acggttgcga tttcaactcc taccgccagg
+     1021 gcaacaagac cttctacggt cctggatctg gcttcaacgt tgataccact aagaaggtca
+     1081 ccgtcgtcac tcagttccac aagggcagca acggacgtct ctctgagatc gcccgtctct
+     1141 atgtccagaa tggcaaggtc attgccaact ctgagtccaa gattgctgga gttcccggaa
+     1201 actctcttac cgctgacttc tgcaccaagc agaagaaggt ctttaacgac cccgatgact
+     1261 tcacgaagaa gggtgcttgg agcggtatga gcgatgctct tgaggctccc atggttcttg
+     1321 ttatgtctct ctggcacgac caccactcca acatgctctg gctcgactct acctacccca
+     1381 ctgactctac caagctcggc tctcagcgcg gatcttgctc tacatcctct ggcgtgcctg
+     1441 ccgaccttga gaagaacgtc cccaactcca aggttgcctt ctccaacatc aagttcggtc
+     1501 ccatcggcag cacctacaag agcgacggca ccactcccac caaccccacc aacccttctg
+     1561 agcccagcaa cactgccaac cccaaccccg gcaccgttga ccagtggggc cagtgcggtg
+     1621 gcagcaacta cagcggtcct accgcctgca agtctggctt cacctgcaag aagatcaacg
+     1681 acttctactc ccagtgccag taaattcgcg gctagcctac gctatctgag gactcagaag
+     1741 aaaagatttg acgaggagat gattgtgatg aagttgtctt ggggagggac gaagttggtt
+     1801 ggttgatgtg gaaaggggtt ggttttccag tttgtcgatt ggcttatgct ctttcttgcc
+     1861 cttcttttgt atcgcgcagt aaaaagcgac ttttgcccct attgtatata ctttggtaga
+     1921 agaatagcaa tacctgtcgc taccaaaaaa aaaaaaaaaa aaa
+//
+
